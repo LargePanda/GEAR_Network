@@ -10,7 +10,8 @@ This documentation serves as a guide on how to use our program to construct netw
 * MathSciNet subscription (e.g. campus internet connection)
 
 ### Execution
-* Short Version    
+* Short Version     
+
 1. Generate Matrix    
 ```
     git clone git://github.com/dasmith/stanford-corenlp-python.git
@@ -24,3 +25,5 @@ This documentation serves as a guide on how to use our program to construct netw
     python run.py webpage
 ```
 * Complete Version
+
+[ipython notebook version](https://github.com/LargePanda/GEAR_Network/blob/master/GEAR_NETWORK.ipynb)
