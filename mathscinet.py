@@ -38,8 +38,7 @@ def find_children_citations(mid):
 def find_parent_citations(mid):
     prefix = "http://www.ams.org/mathscinet/search/publications.html?amp=&loc=refcit&refcit="
     suffix = "&vfpref=html&r=1&extend=1"
-    
-    
+     
     remid = mid[2:]
     url = prefix + remid + suffix
     
