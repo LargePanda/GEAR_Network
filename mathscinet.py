@@ -1,8 +1,7 @@
 import scrapy
 import requests
 import urllib2
-import BeautifulSoup
-import pickle
+from bs4 import BeautifulSoup
 import pyprind
 
 
