@@ -5,8 +5,93 @@ import BeautifulSoup
 import pickle
 import pyprind
 
-# http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=2198773
 
+def get_article_year(div):
+    full_text = get_text(div)
+    for year in range(2000, 2017):
+        if str(year) in get_desc(div):
+            return year
+    return -1
+
+def get_article_date(div):
+    return get_desc(div)
+
+def get_article_id(div):
+    num_tag = div.find('a', attrs = {"class":"mrnum"})
+    return num_tag.text
+
+def get_article_url(div):
+    prefix = 'http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1='
+    article_id = get_article_id(div)
+    return prefix + article_id
+
+def get_article_desc(div):
+    return get_desc(div)
+
+def get_article_authors(div):
+    authors = []
+    for author_link in div.findAll('a'):
+        href = author_link.get("href")
+        if "author" in href:
+            authors.append("MR" + href[40:])
+    return authors
+
+def find_papers_by_author_id(mid):
+    if "MR" in mid:
+        mid = mid[2:]
+        
+    prefix = "http://www.ams.org/mathscinet/search/publications.html?pg1=INDI&s1="
+    suffix = "&vfpref=html&r=1&extend=1"
+    url = prefix + mid + suffix
+    
+    page = urllib2.urlopen(url).read()
+    soup = BeautifulSoup.BeautifulSoup(page)
+    divList = soup.findAll('div', attrs={ "class" : "headlineText"})
+    
+    info_list = []
+    
+    for div in divList:
+        info = {}
+        info['id'] = get_article_id(div)
+        info['url'] = get_article_url(div)
+        info['authors'] = get_article_authors(div)
+        info['description'] = get_article_desc(div)
+        info['date'] = get_article_year(div)
+        info_list.append(info)
+
+    return info_list
+
+# sample:   
+# http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=2198773
+def find_parent_citations(mid):
+    if "MR" in mid:
+        mid = mid[2:]
+
+    prefix = "http://www.ams.org/mathscinet/search/publications.html?amp=&loc=refcit&refcit="
+    suffix = "&vfpref=html&r=1&extend=1"
+    
+    url = prefix + mid + suffix
+    
+    page = urllib2.urlopen(url).read()
+    soup = BeautifulSoup.BeautifulSoup(page)
+    divList = soup.findAll('div', attrs={ "class" : "headlineText"})
+    
+    info_list = []
+    
+    for div in divList:
+        info = {}
+        info['id'] = get_article_id(div)
+        info['url'] = get_article_url(div)
+        info['authors'] = get_article_authors(div)
+        info['description'] = get_article_desc(div)
+        info['date'] = get_article_year(div)
+        info_list.append(info)
+
+    return info_list
+
+
+# sample:
+# http://www.ams.org/mathscinet/search/publications.html?amp=&loc=refcit&refcit=1085139&vfpref=html&r=1&extend=1
 def find_children_citations(mid):
     
     prefix = "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1="
@@ -32,108 +117,30 @@ def find_children_citations(mid):
     return res
     
 
-# sample_url 
-
-# http://www.ams.org/mathscinet/search/publications.html?amp=&loc=refcit&refcit=1085139&vfpref=html&r=1&extend=1
-def find_parent_citations(mid):
-    prefix = "http://www.ams.org/mathscinet/search/publications.html?amp=&loc=refcit&refcit="
-    suffix = "&vfpref=html&r=1&extend=1"
-     
-    remid = mid[2:]
-    url = prefix + remid + suffix
-    
-    page = urllib2.urlopen(url).read()
-    soup = BeautifulSoup.BeautifulSoup(page)
-    divList = soup.findAll('div', attrs={ "class" : "headlineText"})
-    info_list = []
-    
-    for div in divList:
-        num = div.find('a', attrs = {"class":"mrnum"})
-        article_id = num.text
-        link = num.get("href")
-
-        authors = []
-        for author_link in div.findAll('a'):
-            href = author_link.get("href")
-            if "author" in href:
-                authors.append(href[40:])
-
-        article_title = extract_title(div.text)
-        
-        info = {}
-        
-        info['article_id'] = article_id
-        info['article_link'] = link
-        info['article_title'] = article_title
-        info['year'] = extract_year(article_title)
-        info['authors'] = authors
-        
-        info_list.append(info)
-
-    return info_list
-    
-
-# sample url: http://www.ams.org/mathscinet/search/publications.html?pg1=INDI&s1=304864&vfpref=html&r=1&extend=1
-def find_papers(mid):
-    if "MR" in mid:
-        mid = mid[2:]
-        
-    prefix = "http://www.ams.org/mathscinet/search/publications.html?pg1=INDI&s1="
-    suffix = "&vfpref=html&r=1&extend=1"
-    url = prefix + mid + suffix
-    
-    page = urllib2.urlopen(url).read()
-    soup = BeautifulSoup.BeautifulSoup(page)
-    divList = soup.findAll('div', attrs={ "class" : "headlineText"})
-    info_list = []
-    for div in divList:
-        num = div.find('a', attrs = {"class":"mrnum"})
-        article_id = num.text
-        link = num.get("href")
-
-        authors = []
-        for author_link in div.findAll('a'):
-            href = author_link.get("href")
-            if "author" in href:
-                authors.append(href[40:])
-
-        article_title = extract_title(div.text)
-
-        info = {}
-        info['article_id'] = article_id
-        info['article_link'] = link
-        info['article_title'] = article_title
-        info['authors'] = authors
-        info['year'] = extract_year(article_title)        
-        info_list.append(info)
-        
-    return info_list
-    
-
-def extract_year(text):
-    for i in range(2011, 2017):
-        if str(i) in text:
-            return i
-    return 0
-    
-
-def extract_title(text):
-    pref = text[0:20]
-    if "Pending" in pref:
-        start = text.find('Pending')+7
-    elif "Reviewed" in pref:
-        start = text.find('Reviewed')+8
-    elif "Indexed" in pref:
-        start = text.find('Indexed')+7
-    elif "Prelim" in pref:
-        start = text.find('Indexed')+6
-    elif "Thesis" in pref:
-        start = text.find('Indexed')+6
+def get_status(div):
+    article_status_tag = div.find('a', attrs = {"class":"item_status"})
     try:
-        h = start
+        return article_status_tag.text
     except:
-        print pref
-        
-    end = text.find('SFXButton(')
-    return text[start:end].replace("\n", " ")
+        return ""
+
+def get_text(div):
+    spaced_text = " ".join(item.strip() for item in div.findAll(text=True))
+    return spaced_text
+
+def clean_text(title_text):
+    no_newline_text = title_text.replace("\n", "")
+    reduced_spaced_text = " ".join(no_newline_text.split())
+    return reduced_spaced_text
+
+def get_desc(div):
+    full_text = get_text(div)
+    article_status = get_status(div)
     
+    index = full_text.find(article_status)
+    start_index = index + len(article_status)
+    end_index = full_text.find('SFXButton')
+    
+    return clean_text(full_text[start_index: end_index])
+
+
