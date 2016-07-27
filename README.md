@@ -6,24 +6,28 @@ This documentation serves as a guide on how to use our program to construct netw
 
 ### Prerequisite
 * Python 2.x    
-* Packages: `networkx, liternet, scrapy, BeautifulSoup, pyprind, json, matplotlib`     
+* Packages: `BeautifulSoup, pyprind, json`     
 * MathSciNet subscription (e.g. campus internet connection)
+
+#### Windows:   
+Open shell using WIN + R and type the following lines one by one ending with ENTER    
+```
+    pip install beautifulsoup4
+    pip install pyprind
+```
+Download 
+
+
+#### Mac:
+Open terminal and type the following lines one by one ending with ENTER    
+```
+    pip install beautifulsoup4
+    pip install pyprind
+```
 
 ### Execution
 * Short Version     
 
-1. Generate Matrix    
-```
-    git clone git://github.com/dasmith/stanford-corenlp-python.git
-    cd stanford-corenlp-python
-    python run.py matrix
-```
-2. Clustering by Gephi     
-3. Generate input for webpage    
-(Navigate to GEAR_Network/)    
-```
-    python run.py webpage
-```
 * Complete Version
 
 [ipython notebook version](https://github.com/LargePanda/GEAR_Network/blob/master/GEAR_NETWORK.ipynb)
