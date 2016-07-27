@@ -10,13 +10,17 @@ This documentation serves as a guide on how to use our program to construct netw
 * MathSciNet subscription (e.g. campus internet connection)
 
 #### Windows:   
-Open shell using WIN + R and type the following lines one by one ending with ENTER    
-```
-    pip install beautifulsoup4
-    pip install pyprind
-```
-Download 
-
+0. Connect to school wifi    
+Useful information: https://answers.uillinois.edu/illinois/page.php?id=47507    
+1. Install Python 2.7    
+Download Anaconda https://www.continuum.io/downloads#_windows    
+Check "Register Anaconda as my default Python 2.7" in case you have previously installed Python.    
+2. Download our package    
+You can download this code package by https://codeload.github.com/LargePanda/GEAR_Network/zip/master    
+A ZIP file will be downloaded and you need to unzip it.    
+3. Run the program     
+Navigate to root of the package, right click "run", choose "Run as Administrator"    
+If there are files with valid contents in /output folder, then it runs successfully    
 
 #### Mac:
 Open terminal and type the following lines one by one ending with ENTER    
