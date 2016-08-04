@@ -43,7 +43,7 @@ def find_papers_by_author_id(mid):
     url = prefix + mid + suffix
     
     page = urllib2.urlopen(url).read()
-    soup = BeautifulSoup.BeautifulSoup(page)
+    soup = BeautifulSoup(page)
     divList = soup.findAll('div', attrs={ "class" : "headlineText"})
     
     info_list = []
@@ -71,7 +71,7 @@ def find_parent_citations(mid):
     url = prefix + mid + suffix
     
     page = urllib2.urlopen(url).read()
-    soup = BeautifulSoup.BeautifulSoup(page)
+    soup = BeautifulSoup(page)
     divList = soup.findAll('div', attrs={ "class" : "headlineText"})
     
     info_list = []
