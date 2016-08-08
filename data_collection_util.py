@@ -167,7 +167,7 @@ def update_citations(profile, paper_set, starting_year, ending_year, converter):
             
             length = len(list_overlap(other_person_citation, this_person_citation)) 
             if length > 0:
-                person[cite_sizes_key][other_person_id] = list_overlap(other_person_citation, this_person_citation)
+                person[cite_details_key][other_person_id] = list_overlap(other_person_citation, this_person_citation)
                 person[cite_sizes_key][other_person_id] = len(person[cite_sizes_key][other_person_id])
 
 
