@@ -12,6 +12,9 @@ This documentation serves as a guide on how to use our program to construct netw
 #### Windows:   
 0. Connect to school wifi    
 Useful information: https://answers.uillinois.edu/illinois/page.php?id=47507    
+Please choose TunnelAll for "Group"
+
+
 1. Install Python 2.7    
 Download Anaconda https://www.continuum.io/downloads#_windows    
 Check "Register Anaconda as my default Python 2.7" in case you have previously installed Python.    
