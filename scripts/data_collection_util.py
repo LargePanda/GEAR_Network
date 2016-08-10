@@ -7,7 +7,6 @@ import os
 
 import mathscinet
 
-
 def make_mappers(profile):
     """
     return mappers for id and mathscinet id
@@ -108,7 +107,7 @@ def get_citation_keys(citations):
         keys.append(cite['id'])
     return keys
 
-def retrieve_citations(person, selected_paper_set, starting_year, ending_year):
+def retrieve_citations(person, selected_paper_set, starting_year, ending_year, the_paper_list):
     
     mathsci_id = person['mathsci_id']
     
@@ -118,13 +117,15 @@ def retrieve_citations(person, selected_paper_set, starting_year, ending_year):
         return citations
     
     paper_list = selected_paper_set[mathsci_id]
-    
+    the_paper_list.extend(paper_list)
+
     for paper in paper_list:
         year = paper['date']
         if year < starting_year or year > ending_year:
             continue
+        the_paper_list.extend(paper['citing'])
         citations.extend( get_citation_keys(paper['citing']) )
-        
+     
     return citations
 
 def list_overlap(list_a, list_b):
@@ -136,7 +137,7 @@ def list_overlap(list_a, list_b):
     
     return overlap
 
-def update_citations(profile, paper_set, starting_year, ending_year, converter):
+def update_citations(profile, paper_set, starting_year, ending_year, converter, the_paper_list):
     
     cite_details_key = "%s-%s citation details" % (str(starting_year), str(ending_year))
     cite_sizes_key = "%s-%s citation sizes" % (str(starting_year), str(ending_year))
@@ -146,7 +147,7 @@ def update_citations(profile, paper_set, starting_year, ending_year, converter):
     for person in profile['items']:
         member_id = person['member_id']
         temp_profile[member_id] = person
-        
+
     author_list = temp_profile.keys()
 
     for person in profile['items']:
@@ -162,17 +163,17 @@ def update_citations(profile, paper_set, starting_year, ending_year, converter):
             
             other_person = temp_profile[other_person_id]
             
-            other_person_citation = retrieve_citations(other_person, paper_set, starting_year, ending_year)
-            this_person_citation = retrieve_citations(person, paper_set, starting_year, ending_year)
+            other_person_citation = retrieve_citations(other_person, paper_set, starting_year, ending_year, the_paper_list)
+            this_person_citation = retrieve_citations(person, paper_set, starting_year, ending_year, the_paper_list)
             
             length = len(list_overlap(other_person_citation, this_person_citation)) 
             if length > 0:
                 person[cite_details_key][other_person_id] = list_overlap(other_person_citation, this_person_citation)
-                person[cite_sizes_key][other_person_id] = len(person[cite_sizes_key][other_person_id])
+                person[cite_sizes_key][other_person_id] = len(person[cite_details_key][other_person_id])
 
 
 def print_matrix(folder_name, file_name, matrix):
-    path = os.path.join(folder_name, file_name)
+    path = os.path.join('..', folder_name, file_name)
     print path
     with open(path, "w") as f:
         f.write("Source;Target;Weight;Type\n")
@@ -205,5 +206,19 @@ def matrix_maker(gear_profile, starting_year, ending_year):
             if key > author_id:
                 citation_matrix[(author_id, key)] = person[cit_size_key][key]
                 
-    print_matrix("output", str(starting_year)+"_"+str(ending_year)+"_citation", citation_matrix)
-    print_matrix("output", str(starting_year)+"_"+str(ending_year)+"_coauthor", collab_matrix)
+    print_matrix("gephi_input", str(starting_year)+"_"+str(ending_year)+"_citation.csv", citation_matrix)
+    print_matrix("gephi_input", str(starting_year)+"_"+str(ending_year)+"_coauthor.csv", collab_matrix)
+
+
+def export_paper(the_paper_list): 
+    output_path = os.path.join( '..', 'website_input', 'papers.json') 
+    export = {} 
+    for p in the_paper_list: 
+        export[p['id']] = p 
+        with open(output_path, "w") as f: 
+            json.dump(export, f, ensure_ascii = False)
+
+def export_profile(profile):
+    output_path = os.path.join( '..', 'website_input', 'profile.json') 
+    with open(output_path, "w") as f: 
+        json.dump(profile, f, ensure_ascii = False)
