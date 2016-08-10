@@ -20,10 +20,13 @@ Download Anaconda https://www.continuum.io/downloads#_windows
 Check "Register Anaconda as my default Python 2.7" in case you have previously installed Python.    
 2. Download our package    
 You can download this code package by https://codeload.github.com/LargePanda/GEAR_Network/zip/master    
-A ZIP file will be downloaded and you need to unzip it.    
+A ZIP file will be downloaded and you need to unzip it.     
 3. Run the program     
-Navigate to root of the package, right click "run", choose "Run as Administrator"    
+Navigate to root of the package, open 'scripts', right click "run", choose "Run as Administrator"    
 If there are files with valid contents in /output folder, then it runs successfully    
+4. Check    
+'website_input' folder should have: profile.json, papers.json    
+'gephi_input' folder should have co-citation and co-authorship matrices    
 
 #### Mac:
 Open terminal and type the following lines one by one ending with ENTER    
