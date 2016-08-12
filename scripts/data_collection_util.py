@@ -216,9 +216,9 @@ def export_paper(the_paper_list):
     for p in the_paper_list: 
         export[p['id']] = p 
         with open(output_path, "w") as f: 
-            json.dump(export, f, ensure_ascii = False)
+            json.dump(unicode(export), f, ensure_ascii = False)
 
 def export_profile(profile):
     output_path = os.path.join( '..', 'website_input', 'profile.json') 
     with open(output_path, "w") as f: 
-        json.dump(profile, f, ensure_ascii = False)
+        json.dump(unicode(profile), f, ensure_ascii = False)
