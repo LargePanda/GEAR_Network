@@ -27,6 +27,8 @@ If there are files with valid contents in /output folder, then it runs successfu
 4. Check    
 'website_input' folder should have: profile.json, papers.json    
 'gephi_input' folder should have co-citation and co-authorship matrices    
+5. After get output from Gephi    
+Navigate to root of the package, open 'scripts', right click "run_after_gephi", choose "Run as Administrator"    
 
 #### Mac:
 Open terminal and type the following lines one by one ending with ENTER    
