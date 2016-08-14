@@ -4,6 +4,7 @@ import pyprind
 import json
 import collections
 import os
+import codecs
 
 import mathscinet
 
@@ -60,7 +61,7 @@ def download_gear_papers(paper_set, paper_count):
             paper['citing'] = mathscinet.find_parent_citations( paper['id'] )
 
 
-def update_collaborators(gear_profile, gear_paper_set, starting_year, ending_year, converter):
+def update_collaborators(gear_profile, gear_paper_set, starting_year, ending_year, converter, paper_collector):
     
     col_detail_key = "%s-%s collaborators details" % (str(starting_year), str(ending_year))
     col_size_key = "%s-%s collaborators sizes" % (str(starting_year), str(ending_year))
@@ -89,6 +90,8 @@ def update_collaborators(gear_profile, gear_paper_set, starting_year, ending_yea
                     
                     if gear_id == person['member_id']:
                         continue
+
+                    paper_collector.add( paper['id'] )
                     
                     if gear_id in details:
                         details[gear_id].append( paper['id'] )
@@ -137,7 +140,7 @@ def list_overlap(list_a, list_b):
     
     return overlap
 
-def update_citations(profile, paper_set, starting_year, ending_year, converter, the_paper_list):
+def update_citations(profile, paper_set, starting_year, ending_year, converter, the_paper_list, paper_collector):
     
     cite_details_key = "%s-%s citation details" % (str(starting_year), str(ending_year))
     cite_sizes_key = "%s-%s citation sizes" % (str(starting_year), str(ending_year))
@@ -166,6 +169,9 @@ def update_citations(profile, paper_set, starting_year, ending_year, converter, 
             other_person_citation = retrieve_citations(other_person, paper_set, starting_year, ending_year, the_paper_list)
             this_person_citation = retrieve_citations(person, paper_set, starting_year, ending_year, the_paper_list)
             
+            for pid in list_overlap(other_person_citation, this_person_citation):
+                paper_collector.add(pid)
+
             length = len(list_overlap(other_person_citation, this_person_citation)) 
             if length > 0:
                 person[cite_details_key][other_person_id] = list_overlap(other_person_citation, this_person_citation)
@@ -210,15 +216,18 @@ def matrix_maker(gear_profile, starting_year, ending_year):
     print_matrix("gephi_input", str(starting_year)+"_"+str(ending_year)+"_coauthor.csv", collab_matrix)
 
 
-def export_paper(the_paper_list): 
+def export_paper(the_paper_list, paper_collector): 
+    print "Exporting papers ..."
     output_path = os.path.join( '..', 'website_input', 'papers.json') 
     export = {} 
     for p in the_paper_list: 
-        export[p['id']] = p 
-        with open(output_path, "w") as f: 
-            json.dump(unicode(export), f, ensure_ascii = False)
+        if p['id'] in paper_collector:
+            export[p['id']] = p 
+    with codecs.open(output_path, "w", 'utf-8') as f: 
+        json.dump(export, f, indent=4, separators=(',', ': '), ensure_ascii = False)
 
 def export_profile(profile):
+    print "Exporting profile ..."
     output_path = os.path.join( '..', 'website_input', 'profile.json') 
-    with open(output_path, "w") as f: 
-        json.dump(unicode(profile), f, ensure_ascii = False)
+    with codecs.open(output_path, "w", 'utf-8') as f: 
+        json.dump(profile, f, indent=4, separators=(',', ': '), ensure_ascii = False)
