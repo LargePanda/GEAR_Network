@@ -246,14 +246,18 @@ def matrix_maker(gear_profile, starting_year, ending_year):
     print_matrix("gephi_input", str(starting_year)+"_"+str(ending_year)+"_coauthor.csv", collab_matrix)
 
 
-def export_paper(the_paper_list, paper_collector): 
+def export_paper(the_paper_list, paper_collector, arxiv_papers): 
     print "Exporting papers ..."
     output_path = os.path.join( '..', 'website_input', 'papers.json') 
     export = {} 
+
     for p in the_paper_list: 
         p.pop('citing', None)
         if p['id'] in paper_collector:
             export[p['id']] = p 
+    for p in arxiv_papers:
+        export[p['id']] = p
+
     with codecs.open(output_path, "w", 'utf-8') as f: 
         json.dump(export, f, indent=4, separators=(',', ': '), ensure_ascii = False)
 
