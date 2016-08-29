@@ -46,5 +46,5 @@ for ending_year in range(2011, 2017):
     matrix_maker(orig_profile, 2011, ending_year)
 
 
-export_paper(full_paper_list, useful_paper)
+export_paper(full_paper_list, useful_paper, arxiv_papers)
 export_profile(orig_profile)

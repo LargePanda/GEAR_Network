@@ -27,7 +27,7 @@ Source;Target;Weight;Type
 63;111;1;undirected
 2;32;2;undirected
 60;68;2;undirected
-12;254;1;undirected
+12;254;2;undirected
 36;67;4;undirected
 15;83;4;undirected
 17;18;2;undirected
