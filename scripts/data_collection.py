@@ -38,7 +38,7 @@ arxiv_papers = read_arxiv(arxiv_path)
 
 for ending_year in range(2011, 2017):
     update_collaborators(orig_profile, paper_set_2011, 2011, ending_year, mathsci_gear_mapper, useful_paper)
-    update_citations(orig_profile, paper_set_2011, 2011, ending_year, mathsci_gear_mapper, full_paper_list, useful_paper)
+    update_citations(orig_profile, paper_set_2011, 2011, ending_year, mathsci_gear_mapper, full_paper_list, set())
     update_arxiv(orig_profile, arxiv_papers, 2011, ending_year)
 
 # print matrix 

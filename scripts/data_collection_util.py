@@ -251,6 +251,7 @@ def export_paper(the_paper_list, paper_collector):
     output_path = os.path.join( '..', 'website_input', 'papers.json') 
     export = {} 
     for p in the_paper_list: 
+        p.pop('citing', None)
         if p['id'] in paper_collector:
             export[p['id']] = p 
     with codecs.open(output_path, "w", 'utf-8') as f: 

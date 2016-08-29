@@ -53,7 +53,7 @@
     "MR3488025": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3488025",
         "date": 2016,
-        "description": "Jeon, Woojin ; Kapovich, Ilya ; Leininger, Christopher ; Ohshika, Ken'ichi Conical limit points and the Cannon-Thurston map. Conform. Geom. Dyn. 20 (2016), 58–80. 20F65 (30F40 37C85 37F30 57M60)",
+        "description": "Jeon, Woojin ; Kapovich, Ilya ; Leininger, Christopher ; Ohshika, Ken'ichi Conical limit points and the Cannon-Thurston map. Conform. Geom. Dyn. 20 (2016), 58–80. 20F67 (20F69 30F40 37C85 37F30 57M60)",
         "id": "MR3488025",
         "authors": [
             "MR909248",
@@ -187,15 +187,13 @@
             "MR258437"
         ]
     },
-    "MR3502591": {
-        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3502591",
+    "MR3506344": {
+        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3506344",
         "date": 2016,
-        "description": "Abért, Miklós ; Glasner, Yair ; Virág, Bálint The measurable Kesten theorem. Ann. Probab. 44 (2016), no. 3, 1601–1646. 05C50 (05C81 60G50)",
-        "id": "MR3502591",
+        "description": "Kapovich, Michael Discreteness is undecidable. Internat. J. Algebra Comput. 26 (2016), no. 3, 467–472. 20H10 (20F10 57M07)",
+        "id": "MR3506344",
         "authors": [
-            "MR685232",
-            "MR673281",
-            "MR641409"
+            "MR98110"
         ]
     },
     "MR3458148": {
@@ -249,6 +247,17 @@
             "MR313556",
             "MR767561",
             "MR700536"
+        ]
+    },
+    "MR3508219": {
+        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3508219",
+        "date": 2016,
+        "description": "Bergeron, Nicolas ; Millson, John ; Moeglin, Colette The Hodge conjecture and arithmetic quotients of complex balls. Acta Math. 216 (2016), no. 1, 1–125. 11G18 (14G35 22E46 22E47 32Q99)",
+        "id": "MR3508219",
+        "authors": [
+            "MR648344",
+            "MR125000",
+            "MR125925"
         ]
     },
     "MR3449217": {
@@ -416,7 +425,7 @@
     "MR3465844": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3465844",
         "date": 2016,
-        "description": "Luo, Feng Solving Thurston's equation in a commutative ring. J. Topol. 9 (2016), no. 1, 143–160. 57M50 (57M27)",
+        "description": "Luo, Feng Solving Thurston's equation in a commutative ring. J. Topol. 9 (2016), no. 1, 143–160. (Reviewer: Henry Segerman) 57M50 (57M27)",
         "id": "MR3465844",
         "authors": [
             "MR251419"
@@ -661,6 +670,17 @@
             "MR699046"
         ]
     },
+    "MR3448379": {
+        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3448379",
+        "date": 2016,
+        "description": "Ammann, Bernd ; Weiss, Hartmut ; Witt, Frederik The spinorial energy functional on surfaces. Math. Z. 282 (2016), no. 1-2, 177–202. (Reviewer: Nicolas Ginoux) 53C27",
+        "id": "MR3448379",
+        "authors": [
+            "MR625000",
+            "MR777371",
+            "MR710565"
+        ]
+    },
     "MR3474307": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3474307",
         "date": 2016,
@@ -692,6 +712,18 @@
             "MR690516",
             "MR802618",
             "MR931316"
+        ]
+    },
+    "MR3506976": {
+        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3506976",
+        "date": 2016,
+        "description": "Alessandrini, D. ; Liu, L. ; Papadopoulos, A. ; Su, W. The horofunction compactification of Teichmüller spaces of surfaces with boundary. Topology Appl. 208 (2016), 160–191. 32G15 (30F30 30F60)",
+        "id": "MR3506976",
+        "authors": [
+            "MR849772",
+            "MR337701",
+            "MR135835",
+            "MR838920"
         ]
     },
     "MR3474077": {
@@ -904,6 +936,17 @@
             "MR1057783"
         ]
     },
+    "MR3502591": {
+        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3502591",
+        "date": 2016,
+        "description": "Abért, Miklós ; Glasner, Yair ; Virág, Bálint The measurable Kesten theorem. Ann. Probab. 44 (2016), no. 3, 1601–1646. 05C50 (05C81 60G50)",
+        "id": "MR3502591",
+        "authors": [
+            "MR685232",
+            "MR673281",
+            "MR641409"
+        ]
+    },
     "MR3398859": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3398859",
         "date": 2016,
@@ -956,6 +999,16 @@
             "MR671629",
             "MR647080",
             "MR1078211"
+        ]
+    },
+    "MR3505667": {
+        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3505667",
+        "date": 2016,
+        "description": "Benoist, Yves ; de Saxcé, Nicolas Convolution in perfect Lie groups. Math. Proc. Cambridge Philos. Soc. 161 (2016), no. 1, 31–45. 22E30 (28A78 43A65)",
+        "id": "MR3505667",
+        "authors": [
+            "MR213892",
+            "MR1030074"
         ]
     },
     "MR3451271": {
@@ -1036,15 +1089,18 @@
             "MR796093"
         ]
     },
-    "MR3448379": {
-        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3448379",
+    "MR3467729": {
+        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3467729",
         "date": 2016,
-        "description": "Ammann, Bernd ; Weiss, Hartmut ; Witt, Frederik The spinorial energy functional on surfaces. Math. Z. 282 (2016), no. 1-2, 177–202. (Reviewer: Nicolas Ginoux) 53C27",
-        "id": "MR3448379",
+        "description": "Arkani-Hamed, Nima ; Bourjaily, Jacob ; Cachazo, Freddy ; Goncharov, Alexander ; Postnikov, Alexander ; Trnka, Jaroslav Grassmannian geometry of scattering amplitudes. Cambridge University Press, Cambridge, 2016. ix+194 pp. ISBN: 978-1-107-08658-6 81-02 (81R05 81R10 81T60)",
+        "id": "MR3467729",
         "authors": [
-            "MR625000",
-            "MR777371",
-            "MR710565"
+            "MR645976",
+            "MR825137",
+            "MR679954",
+            "MR229715",
+            "MR293185",
+            "MR936542"
         ]
     }
 }

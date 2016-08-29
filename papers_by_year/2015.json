@@ -86,14 +86,15 @@
             "MR201087"
         ]
     },
-    "MR3385133": {
-        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3385133",
+    "MR3507256": {
+        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3507256",
         "date": 2015,
-        "description": "Bestvina, Mladen ; Reynolds, Patrick The boundary of the complex of free factors. Duke Math. J. 164 (2015), no. 11, 2213–2251. 20F67 (57M07)",
-        "id": "MR3385133",
+        "description": "Dunfield, Nathan M. ; Hoffman, Neil R. ; Licata, Joan E. Asymmetric hyperbolic $L$ L -spaces, Heegaard genus, and Dehn filling. Math. Res. Lett. 22 (2015), no. 6, 1679–1698. 57M27 (57R58)",
+        "id": "MR3507256",
         "authors": [
-            "MR36095",
-            "MR944535"
+            "MR341957",
+            "MR813377",
+            "MR849641"
         ]
     },
     "MR3356971": {
@@ -105,15 +106,14 @@
             "MR905915"
         ]
     },
-    "MR3385130": {
-        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3385130",
+    "MR3507255": {
+        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3507255",
         "date": 2015,
-        "description": "Garoufalidis, Stavros ; Thurston, Dylan P. ; Zickert, Christian K. The complex volume of ${\\rm SL}(n,\\Bbb{C})$ {\\rm SL}(n,\\Bbb{C}) -representations of 3-manifolds. Duke Math. J. 164 (2015), no. 11, 2099–2160. (Reviewer: Mattia Mecchia) 57N10 (11G55 11R70 19F27 57M27 57M50 58J28)",
-        "id": "MR3385130",
+        "description": "Delecroix, Vincent ; Matheus, Carlos Un contre-exemple à la réciproque du critère de Forni pour la positivité des exposants de Lyapunov du cocycle de Kontsevich-Zorich. (French) [A counterexample to the reciprocal to Forni's criterion for the positivity of Lyapunov exponents of the Kontsevich-Zorich cocycle] Math. Res. Lett. 22 (2015), no. 6, 1667–1678. 37D25 (37D40)",
+        "id": "MR3507255",
         "authors": [
-            "MR606995",
-            "MR672424",
-            "MR796093"
+            "MR1026380",
+            "MR730493"
         ]
     },
     "MR3426624": {
@@ -264,7 +264,7 @@
     "MR3391031": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3391031",
         "date": 2015,
-        "description": "Duchin, Moon ; Liang, Hao ; Shapiro, Michael Equations in nilpotent groups. Proc. Amer. Math. Soc. 143 (2015), no. 11, 4723–4731. 20F10 (20F18 20F70)",
+        "description": "Duchin, Moon ; Liang, Hao ; Shapiro, Michael Equations in nilpotent groups. Proc. Amer. Math. Soc. 143 (2015), no. 11, 4723–4731. (Reviewer: Anton A. Klyachko) 20F10 (03B25 03D35 03D40 20F18 20F70)",
         "id": "MR3391031",
         "authors": [
             "MR822577",
@@ -665,6 +665,15 @@
             "MR201087"
         ]
     },
+    "MR3424674": {
+        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3424674",
+        "date": 2015,
+        "description": "Manon, Christopher Compactifications of character varieties and skein relations on conformal blocks. Geom. Dedicata 179 (2015), 335–376. 14D20 (14H42 14H60)",
+        "id": "MR3424674",
+        "authors": [
+            "MR898909"
+        ]
+    },
     "MR3447109": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3447109",
         "date": 2015,
@@ -745,13 +754,14 @@
             "MR1130450"
         ]
     },
-    "MR3424674": {
-        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3424674",
+    "MR3385133": {
+        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3385133",
         "date": 2015,
-        "description": "Manon, Christopher Compactifications of character varieties and skein relations on conformal blocks. Geom. Dedicata 179 (2015), 335–376. 14D20 (14H42 14H60)",
-        "id": "MR3424674",
+        "description": "Bestvina, Mladen ; Reynolds, Patrick The boundary of the complex of free factors. Duke Math. J. 164 (2015), no. 11, 2213–2251. 20F67 (57M07)",
+        "id": "MR3385133",
         "authors": [
-            "MR898909"
+            "MR36095",
+            "MR944535"
         ]
     },
     "MR3363756": {
@@ -818,16 +828,15 @@
             "MR258437"
         ]
     },
-    "MR3386540": {
-        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3386540",
+    "MR3385130": {
+        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3385130",
         "date": 2015,
-        "description": "Athreya, Jayadev ; Chaubey, Sneha ; Malik, Amita ; Zaharescu, Alexandru Geometry of Farey-Ford polygons. New York J. Math. 21 (2015), 637–656. (Reviewer: Liangyi Zhao) 37A17 (11B57 37D40 60D99)",
-        "id": "MR3386540",
+        "description": "Garoufalidis, Stavros ; Thurston, Dylan P. ; Zickert, Christian K. The complex volume of ${\\rm SL}(n,\\Bbb{C})$ {\\rm SL}(n,\\Bbb{C}) -representations of 3-manifolds. Duke Math. J. 164 (2015), no. 11, 2099–2160. (Reviewer: Mattia Mecchia) 57N10 (11G55 11R70 19F27 57M27 57M50 58J28)",
+        "id": "MR3385130",
         "authors": [
-            "MR663249",
-            "MR1081961",
-            "MR1058918",
-            "MR186235"
+            "MR606995",
+            "MR672424",
+            "MR796093"
         ]
     },
     "MR3425629": {
@@ -1193,7 +1202,7 @@
     "MR3344664": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3344664",
         "date": 2015,
-        "description": "Bridson, Martin R. ; Reid, Alan W. Nilpotent completions of groups, Grothendieck pairs, and four problems of Baumslag. Int. Math. Res. Not. IMRN 2015, no. 8, 2111–2140. 20Fxx",
+        "description": "Bridson, Martin R. ; Reid, Alan W. Nilpotent completions of groups, Grothendieck pairs, and four problems of Baumslag. Int. Math. Res. Not. IMRN 2015, no. 8, 2111–2140. (Reviewer: Francesco de Giovanni) 20E26 (20F18)",
         "id": "MR3344664",
         "authors": [
             "MR324657",
@@ -1401,6 +1410,18 @@
             "MR186235"
         ]
     },
+    "MR3386540": {
+        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3386540",
+        "date": 2015,
+        "description": "Athreya, Jayadev ; Chaubey, Sneha ; Malik, Amita ; Zaharescu, Alexandru Geometry of Farey-Ford polygons. New York J. Math. 21 (2015), 637–656. (Reviewer: Liangyi Zhao) 37A17 (11B57 37D40 60D99)",
+        "id": "MR3386540",
+        "authors": [
+            "MR663249",
+            "MR1081961",
+            "MR1058918",
+            "MR186235"
+        ]
+    },
     "MR3379474": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3379474",
         "date": 2015,
@@ -1413,7 +1434,7 @@
     "MR3438166": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3438166",
         "date": 2015,
-        "description": "Spinaci, Marco Rigidity of maximal holomorphic representations of Kähler groups. Internat. J. Math. 26 (2015), no. 14, 1550113, 26 pp. 32Q15 (14D20 32M15)",
+        "description": "Spinaci, Marco Rigidity of maximal holomorphic representations of Kähler groups. Internat. J. Math. 26 (2015), no. 14, 1550113, 26 pp. (Reviewer: Andrzej Kozlowski) 32G07 (14D20 32M15 32Q15 53C55)",
         "id": "MR3438166",
         "authors": [
             "MR1086162"
@@ -1500,7 +1521,7 @@
     "MR3335249": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3335249",
         "date": 2015,
-        "description": "Hamenstädt, Ursula ; Hensel, Sebastian Spheres and projections for Out( $F_n$ F_n ). J. Topol. 8 (2015), no. 1, 65–92. 20F65 (20F28 57M07)",
+        "description": "Hamenstädt, Ursula ; Hensel, Sebastian Spheres and projections for ${\\rm Out}(F_n)$ {\\rm Out}(F_n) . J. Topol. 8 (2015), no. 1, 65–92. 20F65 (20F28 57M07)",
         "id": "MR3335249",
         "authors": [
             "MR243357",
@@ -2642,7 +2663,7 @@
     "MR3450764": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3450764",
         "date": 2015,
-        "description": "Cavendish, Will On finite derived quotients of 3-manifold groups. Algebr. Geom. Topol. 15 (2015), no. 6, 3355–3369. 57M10 (57M60)",
+        "description": "Cavendish, Will On finite derived quotients of 3-manifold groups. Algebr. Geom. Topol. 15 (2015), no. 6, 3355–3369. (Reviewer: Chichen M. Tsau) 57M10 (57M60)",
         "id": "MR3450764",
         "authors": [
             "MR904402"
