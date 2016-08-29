@@ -593,7 +593,7 @@
             {
                 "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3438166",
                 "date": 2015,
-                "description": "Spinaci, Marco Rigidity of maximal holomorphic representations of Kähler groups. Internat. J. Math. 26 (2015), no. 14, 1550113, 26 pp. 32Q15 (14D20 32M15)",
+                "description": "Spinaci, Marco Rigidity of maximal holomorphic representations of Kähler groups. Internat. J. Math. 26 (2015), no. 14, 1550113, 26 pp. (Reviewer: Andrzej Kozlowski) 32G07 (14D20 32M15 32Q15 53C55)",
                 "id": "MR3438166",
                 "authors": [
                     "MR1086162"
@@ -754,7 +754,7 @@
     "MR3438166": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3438166",
         "date": 2015,
-        "description": "Spinaci, Marco Rigidity of maximal holomorphic representations of Kähler groups. Internat. J. Math. 26 (2015), no. 14, 1550113, 26 pp. 32Q15 (14D20 32M15)",
+        "description": "Spinaci, Marco Rigidity of maximal holomorphic representations of Kähler groups. Internat. J. Math. 26 (2015), no. 14, 1550113, 26 pp. (Reviewer: Andrzej Kozlowski) 32G07 (14D20 32M15 32Q15 53C55)",
         "id": "MR3438166",
         "authors": [
             "MR1086162"
@@ -950,7 +950,7 @@
     "MR3488025": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3488025",
         "date": 2016,
-        "description": "Jeon, Woojin ; Kapovich, Ilya ; Leininger, Christopher ; Ohshika, Ken'ichi Conical limit points and the Cannon-Thurston map. Conform. Geom. Dyn. 20 (2016), 58–80. 20F65 (30F40 37C85 37F30 57M60)",
+        "description": "Jeon, Woojin ; Kapovich, Ilya ; Leininger, Christopher ; Ohshika, Ken'ichi Conical limit points and the Cannon-Thurston map. Conform. Geom. Dyn. 20 (2016), 58–80. 20F67 (20F69 30F40 37C85 37F30 57M60)",
         "id": "MR3488025",
         "authors": [
             "MR909248",
@@ -3463,6 +3463,19 @@
             "MR697274"
         ]
     },
+    "MR3506976": {
+        "description": "Alessandrini, D. ; Liu, L. ; Papadopoulos, A. ; Su, W. The horofunction compactification of Teichmüller spaces of surfaces with boundary. Topology Appl. 208 (2016), 160–191. 32G15 (30F30 30F60)",
+        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3506976",
+        "citing": [],
+        "authors": [
+            "MR849772",
+            "MR337701",
+            "MR135835",
+            "MR838920"
+        ],
+        "date": 2016,
+        "id": "MR3506976"
+    },
     "MR3434554": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3434554",
         "date": 2015,
@@ -4634,7 +4647,7 @@
     "MR3441130": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3441130",
         "date": 2016,
-        "description": "Bergeron, Maxime ; Silberman, Lior A note on nilpotent representations. J. Group Theory 19 (2016), no. 1, 125–135. 20Cxx (20Gxx)",
+        "description": "Bergeron, Maxime ; Silberman, Lior A note on nilpotent representations. J. Group Theory 19 (2016), no. 1, 125–135. (Reviewer: Simon M. Goodwin) 20F18 (14D20 20C15 20G20)",
         "id": "MR3441130",
         "authors": [
             "MR1110198",
@@ -5235,7 +5248,7 @@
     "MR3480382": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3480382",
         "date": 2016,
-        "description": "Gongopadhyay, Krishnendu ; Thomas, Cigole Decomposition of complex hyperbolic isometries by involutions. Linear Algebra Appl. 500 (2016), 63–76. 51N30 (51F25 51M10)",
+        "description": "Gongopadhyay, Krishnendu ; Thomas, Cigole Decomposition of complex hyperbolic isometries by involutions. Linear Algebra Appl. 500 (2016), 63–76. (Reviewer: E. W. Ellers) 51N30 (51F25 51M10)",
         "id": "MR3480382",
         "authors": [
             "MR866190",
@@ -5641,7 +5654,7 @@
             {
                 "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3488025",
                 "date": 2016,
-                "description": "Jeon, Woojin ; Kapovich, Ilya ; Leininger, Christopher ; Ohshika, Ken'ichi Conical limit points and the Cannon-Thurston map. Conform. Geom. Dyn. 20 (2016), 58–80. 20F65 (30F40 37C85 37F30 57M60)",
+                "description": "Jeon, Woojin ; Kapovich, Ilya ; Leininger, Christopher ; Ohshika, Ken'ichi Conical limit points and the Cannon-Thurston map. Conform. Geom. Dyn. 20 (2016), 58–80. 20F67 (20F69 30F40 37C85 37F30 57M60)",
                 "id": "MR3488025",
                 "authors": [
                     "MR909248",
@@ -5835,7 +5848,29 @@
     "MR3493369": {
         "description": "Bestvina, Mladen ; Bromberg, Ken ; Fujiwara, Koji Bounded cohomology with coefficients in uniformly convex Banach spaces. Comment. Math. Helv. 91 (2016), no. 2, 203–218. 20F65 (22D12)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3493369",
-        "citing": [],
+        "citing": [
+            {
+                "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3494163",
+                "date": 2016,
+                "description": "Bestvina, Mladen ; Bromberg, Ken ; Fujiwara, Koji Stable commutator length on mapping class groups. Ann. Inst. Fourier (Grenoble) 66 (2016), no. 3, 871–898. 20F65",
+                "id": "MR3494163",
+                "authors": [
+                    "MR36095",
+                    "MR687266",
+                    "MR267217"
+                ]
+            },
+            {
+                "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3449592",
+                "date": 2015,
+                "description": "Caprace, Pierre-Emmanuel ; Hume, David Orthogonal forms of Kac-Moody groups are acylindrically hyperbolic. Ann. Inst. Fourier (Grenoble) 65 (2015), no. 6, 2613–2640. 20F67 (20E42 20G44)",
+                "id": "MR3449592",
+                "authors": [
+                    "MR752356",
+                    "MR1029452"
+                ]
+            }
+        ],
         "authors": [
             "MR36095",
             "MR687266",
@@ -6150,16 +6185,15 @@
         ]
     },
     "MR3494163": {
-        "description": "Bestvina, Mladen ; Bromberg, Ken ; Fujiwara, Koji Stable commutator length on mapping class groups. Ann. Inst. Fourier (Grenoble) 66 (2016), no. 3, 871–898. 20F65",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3494163",
-        "citing": [],
+        "date": 2016,
+        "description": "Bestvina, Mladen ; Bromberg, Ken ; Fujiwara, Koji Stable commutator length on mapping class groups. Ann. Inst. Fourier (Grenoble) 66 (2016), no. 3, 871–898. 20F65",
+        "id": "MR3494163",
         "authors": [
             "MR36095",
             "MR687266",
             "MR267217"
-        ],
-        "date": 2016,
-        "id": "MR3494163"
+        ]
     },
     "MR3432531": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3432531",
@@ -6196,7 +6230,7 @@
     "MR3335249": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3335249",
         "date": 2015,
-        "description": "Hamenstädt, Ursula ; Hensel, Sebastian Spheres and projections for Out( $F_n$ F_n ). J. Topol. 8 (2015), no. 1, 65–92. 20F65 (20F28 57M07)",
+        "description": "Hamenstädt, Ursula ; Hensel, Sebastian Spheres and projections for ${\\rm Out}(F_n)$ {\\rm Out}(F_n) . J. Topol. 8 (2015), no. 1, 65–92. 20F65 (20F28 57M07)",
         "id": "MR3335249",
         "authors": [
             "MR243357",
@@ -6922,7 +6956,7 @@
     "MR3455789": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3455789",
         "date": 2016,
-        "description": "Araújo, Vítor ; Bufetov, Alexander I. ; Filip, Simion On Hölder-continuity of Oseledets subspaces. J. Lond. Math. Soc. (2) 93 (2016), no. 1, 194–218. 37H15 (37B40 37C40 37D25)",
+        "description": "Araújo, Vítor ; Bufetov, Alexander I. ; Filip, Simion On Hölder-continuity of Oseledets subspaces. J. Lond. Math. Soc. (2) 93 (2016), no. 1, 194–218. (Reviewer: Lin Shu) 37D25 (37A50 37B40 37C40 37H15)",
         "id": "MR3455789",
         "authors": [
             "MR665394",
@@ -7038,7 +7072,7 @@
             {
                 "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3488025",
                 "date": 2016,
-                "description": "Jeon, Woojin ; Kapovich, Ilya ; Leininger, Christopher ; Ohshika, Ken'ichi Conical limit points and the Cannon-Thurston map. Conform. Geom. Dyn. 20 (2016), 58–80. 20F65 (30F40 37C85 37F30 57M60)",
+                "description": "Jeon, Woojin ; Kapovich, Ilya ; Leininger, Christopher ; Ohshika, Ken'ichi Conical limit points and the Cannon-Thurston map. Conform. Geom. Dyn. 20 (2016), 58–80. 20F67 (20F69 30F40 37C85 37F30 57M60)",
                 "id": "MR3488025",
                 "authors": [
                     "MR909248",
@@ -7390,7 +7424,7 @@
             {
                 "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3465844",
                 "date": 2016,
-                "description": "Luo, Feng Solving Thurston's equation in a commutative ring. J. Topol. 9 (2016), no. 1, 143–160. 57M50 (57M27)",
+                "description": "Luo, Feng Solving Thurston's equation in a commutative ring. J. Topol. 9 (2016), no. 1, 143–160. (Reviewer: Henry Segerman) 57M50 (57M27)",
                 "id": "MR3465844",
                 "authors": [
                     "MR251419"
@@ -7767,7 +7801,7 @@
         ]
     },
     "MR3450764": {
-        "description": "Cavendish, Will On finite derived quotients of 3-manifold groups. Algebr. Geom. Topol. 15 (2015), no. 6, 3355–3369. 57M10 (57M60)",
+        "description": "Cavendish, Will On finite derived quotients of 3-manifold groups. Algebr. Geom. Topol. 15 (2015), no. 6, 3355–3369. (Reviewer: Chichen M. Tsau) 57M10 (57M60)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3450764",
         "citing": [],
         "authors": [
@@ -9094,7 +9128,7 @@
             {
                 "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3438166",
                 "date": 2015,
-                "description": "Spinaci, Marco Rigidity of maximal holomorphic representations of Kähler groups. Internat. J. Math. 26 (2015), no. 14, 1550113, 26 pp. 32Q15 (14D20 32M15)",
+                "description": "Spinaci, Marco Rigidity of maximal holomorphic representations of Kähler groups. Internat. J. Math. 26 (2015), no. 14, 1550113, 26 pp. (Reviewer: Andrzej Kozlowski) 32G07 (14D20 32M15 32Q15 53C55)",
                 "id": "MR3438166",
                 "authors": [
                     "MR1086162"
@@ -9194,7 +9228,7 @@
     "MR3465844": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3465844",
         "date": 2016,
-        "description": "Luo, Feng Solving Thurston's equation in a commutative ring. J. Topol. 9 (2016), no. 1, 143–160. 57M50 (57M27)",
+        "description": "Luo, Feng Solving Thurston's equation in a commutative ring. J. Topol. 9 (2016), no. 1, 143–160. (Reviewer: Henry Segerman) 57M50 (57M27)",
         "id": "MR3465844",
         "authors": [
             "MR251419"
@@ -9859,6 +9893,17 @@
         "authors": [
             "MR1063037"
         ]
+    },
+    "MR3502022": {
+        "description": "Mangahas, Johanna ; Taylor, Samuel J. Convex cocompactness in mapping class groups via quasiconvexity in right-angled Artin groups. Proc. Lond. Math. Soc. (3) 112 (2016), no. 5, 855–881. 30F60 (20F36 20F65 57N05)",
+        "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3502022",
+        "citing": [],
+        "authors": [
+            "MR891559",
+            "MR905553"
+        ],
+        "date": 2016,
+        "id": "MR3502022"
     },
     "MR3370029": {
         "description": "Cooper, Daryl ; Manning, Jason Fox Non-faithful representations of surface groups into $SL(2,\\Bbb{C})$ SL(2,\\Bbb{C}) which kill no simple closed curve. Geom. Dedicata 177 (2015), 165–187. (Reviewer: Bruno P. Zimmermann) 57N05 (20F65 57M05)",

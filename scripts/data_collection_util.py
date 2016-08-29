@@ -60,6 +60,36 @@ def download_gear_papers(paper_set, paper_count):
             bar.update()
             paper['citing'] = mathscinet.find_parent_citations( paper['id'] )
 
+def read_arxiv(filepath):
+    with open(filepath) as f:
+        arxiv_papers = json.load(f)
+    return arxiv_papers
+
+def update_arxiv(gear_profile, arxiv_papers, starting_year, ending_year):
+    col_detail_key = "%s-%s collaborators details" % (str(starting_year), str(ending_year))
+    col_size_key = "%s-%s collaborators sizes" % (str(starting_year), str(ending_year))
+
+    for paper in arxiv_papers:
+        year = paper['date']
+        if year < starting_year or year > ending_year:
+                continue
+        ids = paper['authors']
+        for member_id in ids:
+            person = get_person_by_id(gear_profile, member_id)
+            details = person[col_detail_key]
+            
+            for mid in ids:
+                if mid != member_id:
+                    # update detail
+                    
+                    if mid in details:
+                        details[mid].append( paper['id'] )
+                    else:
+                        details[mid] = [ paper['id'] ]
+                    
+                    for key in details.keys():
+                        person[col_size_key][key] = len(details[key])
+
 
 def update_collaborators(gear_profile, gear_paper_set, starting_year, ending_year, converter, paper_collector):
     
@@ -231,3 +261,8 @@ def export_profile(profile):
     output_path = os.path.join( '..', 'website_input', 'profile.json') 
     with codecs.open(output_path, "w", 'utf-8') as f: 
         json.dump(profile, f, indent=4, separators=(',', ': '), ensure_ascii = False)
+
+def get_person_by_id(profile, member_id):
+    for person in profile['items']:
+        if person['member_id'] == member_id:
+            return person

@@ -28,6 +28,7 @@ Source;Target;Weight;Type
 63;111;1;undirected
 2;32;2;undirected
 60;68;3;undirected
+12;254;1;undirected
 36;67;5;undirected
 24;118;1;undirected
 15;83;4;undirected
@@ -55,7 +56,7 @@ Source;Target;Weight;Type
 42;68;1;undirected
 21;27;4;undirected
 20;66;1;undirected
-93;223;5;undirected
+93;223;6;undirected
 224;237;1;undirected
 16;271;4;undirected
 82;274;3;undirected
@@ -64,6 +65,7 @@ Source;Target;Weight;Type
 111;112;1;undirected
 72;260;2;undirected
 42;63;1;undirected
+288;289;1;undirected
 68;102;1;undirected
 26;33;1;undirected
 78;121;1;undirected
