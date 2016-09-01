@@ -63,7 +63,16 @@ def download_gear_papers(paper_set, paper_count):
 def read_arxiv(filepath):
     with open(filepath) as f:
         arxiv_papers = json.load(f)
-    return arxiv_papers
+    val = []
+    for p in arxiv_papers['papers']:
+        newp = {}
+        newp['id'] = p['id']
+        newp['date'] = int(p['date'])
+        newp['authors'] = p['collaborator_ids']
+        newp['description'] = p['description']
+        newp["publication"] = p["publication"]
+        val.append(newp)
+    return vap
 
 def update_arxiv(gear_profile, arxiv_papers, starting_year, ending_year):
     col_detail_key = "%s-%s collaborators details" % (str(starting_year), str(ending_year))
