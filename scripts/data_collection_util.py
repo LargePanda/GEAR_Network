@@ -61,7 +61,7 @@ def download_gear_papers(paper_set, paper_count):
             paper['citing'] = mathscinet.find_parent_citations( paper['id'] )
 
 def read_arxiv(filepath):
-    with open(filepath) as f:
+    with codecs.open(filepath, "r", 'utf-8') as f:
         arxiv_papers = json.load(f)
     val = []
     for p in arxiv_papers['papers']:
@@ -72,7 +72,7 @@ def read_arxiv(filepath):
         newp['description'] = p['description']
         newp["publication"] = p["publication"]
         val.append(newp)
-    return vap
+    return val
 
 def update_arxiv(gear_profile, arxiv_papers, starting_year, ending_year):
     col_detail_key = "%s-%s collaborators details" % (str(starting_year), str(ending_year))
@@ -113,6 +113,8 @@ def update_collaborators(gear_profile, gear_paper_set, starting_year, ending_yea
 
         # if mathsci_id does not exist, continue
         if mathsci_id == "NA":
+            person[col_detail_key] = {}
+            person[col_size_key] = {}
             continue
 
         for paper in gear_paper_set[mathsci_id]:

@@ -5,11 +5,12 @@ Source;Target;Weight;Type
 46;126;1;undirected
 15;20;1;undirected
 71;102;5;undirected
-60;73;1;undirected
+60;73;2;undirected
 19;366;2;undirected
 26;94;1;undirected
 68;85;1;undirected
 20;83;1;undirected
+46;116;1;undirected
 15;78;1;undirected
 16;83;1;undirected
 118;120;1;undirected
@@ -19,6 +20,7 @@ Source;Target;Weight;Type
 40;275;1;undirected
 43;116;1;undirected
 82;274;1;undirected
+95;276;1;undirected
 24;118;1;undirected
 55;237;1;undirected
 36;225;1;undirected

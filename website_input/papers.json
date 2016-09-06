@@ -20,6 +20,17 @@
         "date": 2011,
         "id": "MR2764111 "
     },
+    "81": {
+        "date": 2014,
+        "description": "Ana Casimiro, Carlos Florentino, Sean Lawton, André Oliveira; Homotopy type of free group character varieties.",
+        "publication": "preprint",
+        "id": "81",
+        "authors": [
+            36,
+            67,
+            89
+        ]
+    },
     "MR3024600": {
         "description": "Futer, David ; Kalfagianni, Efstratia ; Purcell, Jessica Guts of surfaces and the colored Jones polynomial. Lecture Notes in Mathematics, 2069. Springer, Heidelberg, 2013. x+170 pp. ISBN: 978-3-642-33301-9; 978-3-642-33302-6 (Reviewer: Heather A. Dye) 57M25 (57M27 57M50 57N10)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3024600",
@@ -52,6 +63,16 @@
         "date": 2015,
         "id": "MR3345190"
     },
+    "127": {
+        "date": 2011,
+        "description": "William M. Goldman, Domingo Toledo; Affine cubic surfaces and relative SL(2)-character varieties of compact surfaces.",
+        "publication": "preprint",
+        "id": "127",
+        "authors": [
+            46,
+            116
+        ]
+    },
     "MR3504811": {
         "description": "Benoist, Yves ; Hulin, Dominique Quasicircles and the conformal group. Conform. Geom. Dyn. 20 (2016), 197–217. 30C62 (57M60)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3504811",
@@ -72,6 +93,26 @@
         "date": 2011,
         "id": "MR2796637 "
     },
+    "130": {
+        "date": 2011,
+        "description": "Javier Aramayona, Cyril Lecuire, Hugo Parlier, Kenneth J. Shackleton; Convexity of strata in diagonal pants graphs of surfaces.",
+        "publication": "preprint",
+        "id": "130",
+        "authors": [
+            95,
+            276
+        ]
+    },
+    "91": {
+        "date": 2015,
+        "description": "Hengnan Hu, Ser Peow Tan, Ying Zhang; Polynomial automorphisms of C^n preserving the Markoff-Hurwitz polynomial.",
+        "publication": "preprint",
+        "id": "91",
+        "authors": [
+            113,
+            239
+        ]
+    },
     "MR3062872": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3062872",
         "date": 2013,
@@ -80,6 +121,16 @@
         "authors": [
             "MR652687",
             "MR125000"
+        ]
+    },
+    "57": {
+        "date": 2013,
+        "description": "John R. Parker, Pierre Will; Complex hyperbolic free groups with many parabolic elements.",
+        "publication": "preprint",
+        "id": "57",
+        "authors": [
+            94,
+            122
         ]
     },
     "MR2824561 ": {
@@ -111,6 +162,16 @@
         "authors": [
             "MR1084949",
             "MR201087"
+        ]
+    },
+    "50": {
+        "date": 2013,
+        "description": "Keith Burns, Howard Masur, Carlos Matheus, Amie Wilkinson; Rates of mixing of Weil-Pertesson geodesic flows.",
+        "publication": "preprint",
+        "id": "50",
+        "authors": [
+            78,
+            121
         ]
     },
     "MR2901364": {
@@ -155,6 +216,16 @@
         "date": 2011,
         "id": "MR2794601 "
     },
+    "93": {
+        "date": 2015,
+        "description": "Benjamin Linowitz, D. B. McReynolds, Nicholas Miller; Locally Equivalent Correspondences.",
+        "publication": "preprint",
+        "id": "93",
+        "authors": [
+            283,
+            79
+        ]
+    },
     "MR3190298": {
         "description": "Álvarez-Cónsul, Luis ; García-Fernández, Mario ; García-Prada, Oscar Coupled equations for Kähler metrics and Yang-Mills connections. Geom. Topol. 17 (2013), no. 5, 2731–2812. (Reviewer: Christina W. Tønnesen-Friedman) 32Q20 (53C07 53C55 53D20)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3190298",
@@ -166,6 +237,16 @@
         "date": 2013,
         "id": "MR3190298"
     },
+    "24": {
+        "date": 2014,
+        "description": "David Dumas, Michael Wolf; Polynomial cubic differentials and convex polygons in the projective plane.",
+        "publication": "preprint",
+        "id": "24",
+        "authors": [
+            29,
+            123
+        ]
+    },
     "MR2917158": {
         "description": "Kent, Richard P., IV ; Souto, Juan Geometric limits of knot complements, II: graphs determined by their complements. Math. Z. 271 (2012), no. 1-2, 565–575. (Reviewer: Athanase Papadopoulos) 57M25 (37F40 57M50)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR2917158",
@@ -175,6 +256,17 @@
         ],
         "date": 2012,
         "id": "MR2917158"
+    },
+    "26": {
+        "date": 2012,
+        "description": "Alex Eskin, Maryam Mirzakhani, Kasra Rafi; Counting closed geodesics in strata.",
+        "publication": "preprint",
+        "id": "26",
+        "authors": [
+            32,
+            84,
+            101
+        ]
     },
     "MR3087924": {
         "description": "Florentino, Carlos ; Lawton, Sean Character varieties and moduli of quiver representations. In the tradition of Ahlfors-Bers. VI, 9–38, Contemp. Math., 590, Amer. Math. Soc., Providence, RI, 2013. (Reviewer: Kostiantyn Iusenko) 16G20 (14L30)",
@@ -196,6 +288,38 @@
         ],
         "date": 2013,
         "id": "MR3087923"
+    },
+    "21": {
+        "date": 2014,
+        "description": "Daryl Cooper, Jeffrey Danciger, Anna Wienhard; Limits of geometries.",
+        "publication": "preprint",
+        "id": "21",
+        "authors": [
+            22,
+            119,
+            293
+        ]
+    },
+    "22": {
+        "date": 2013,
+        "description": "Martin Deraux, Elisha Falbel; Complex hyperbolic geometry of the figure eight knot.",
+        "publication": "preprint",
+        "id": "22",
+        "authors": [
+            26,
+            33
+        ]
+    },
+    "23": {
+        "date": 2014,
+        "description": "Martin Deraux, John R. Parker, Julien Paupert; New non-arithmetic complex hyperbolic lattices.",
+        "publication": "preprint",
+        "id": "23",
+        "authors": [
+            26,
+            94,
+            98
+        ]
     },
     "MR2982079": {
         "description": "Andersen, Jørgen E. ; Chekhov, Leonid O. ; Penner, R. C. ; Reidys, Christian M. ; Sułkowski, Piotr Topological recursion for chord diagrams, RNA complexes, and cells in moduli spaces. Nuclear Phys. B 866 (2013), no. 3, 414–443. 57R56",
@@ -221,6 +345,16 @@
         "date": 2016,
         "id": "MR3480555"
     },
+    "28": {
+        "date": 2013,
+        "description": "Alex Eskin, Maryam Mirzakhani, Amir Mohammadi; Isolation, equidistribution, and orbit closures for the SL(2,R) action on Moduli space.",
+        "publication": "preprint",
+        "id": "28",
+        "authors": [
+            32,
+            84
+        ]
+    },
     "MR3227204": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3227204",
         "date": 2014,
@@ -241,6 +375,16 @@
         "date": 2012,
         "id": "MR2983835"
     },
+    "94": {
+        "date": 2015,
+        "description": "Benjamin Linowitz, D. B. McReynolds, Paul Pollack, Lola Thompson; Systoles of Arithmetic Hyperbolic Surfaces and 3-manifolds.",
+        "publication": "preprint",
+        "id": "94",
+        "authors": [
+            283,
+            79
+        ]
+    },
     "MR3127814": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3127814",
         "date": 2013,
@@ -252,6 +396,16 @@
             "MR272212"
         ]
     },
+    "4": {
+        "date": 2014,
+        "description": "Jørgen Ellegaard Andersen, Søren Fuglede Jørgensen; On the Witten--Reshetikhin--Turaev invariants of torus bundles.",
+        "publication": "preprint",
+        "id": "4",
+        "authors": [
+            1,
+            232
+        ]
+    },
     "MR3231216": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3231216",
         "date": 2014,
@@ -260,6 +414,16 @@
         "authors": [
             "MR663249",
             "MR260394"
+        ]
+    },
+    "5": {
+        "date": 2013,
+        "description": "Jørgen E. Andersen, Leonid O. Chekhov, R. C. Penner, Christian M. Reidys, Piotr Sułkowski; Enumeration of RNA complexes via random matrix theory.",
+        "publication": "preprint",
+        "id": "5",
+        "authors": [
+            1,
+            99
         ]
     },
     "MR2851070": {
@@ -283,6 +447,27 @@
         "date": 2013,
         "id": "MR3032694"
     },
+    "87": {
+        "date": 2014,
+        "description": "Daniele Alessandrini, Lixin Liu, Athanase Papadopoulos, Weixu Su; The horofunction compactification of the arc metric on Teichmüller space.",
+        "publication": "preprint",
+        "id": "87",
+        "authors": [
+            93,
+            223
+        ]
+    },
+    "119": {
+        "date": 2012,
+        "description": "Oscar Garcia-Prada, Peter B. Gothen, Ignasi Mundet i Riera; The Hitchin-Kobayashi correspondence, Higgs pairs and surface group representations.",
+        "publication": "preprint",
+        "id": "119",
+        "authors": [
+            43,
+            49,
+            87
+        ]
+    },
     "MR3314946": {
         "description": "Dowdall, Spencer ; Kent, Richard P., IV ; Leininger, Christopher J. Pseudo-Anosov subgroups of fibered 3-manifold groups. Groups Geom. Dyn. 8 (2014), no. 4, 1247–1282. (Reviewer: Sadayoshi Kojima) 57M07 (20F67 57S25)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3314946",
@@ -304,6 +489,16 @@
         ],
         "date": 2012,
         "id": "MR2944537"
+    },
+    "7": {
+        "date": 2014,
+        "description": "Jørgen Ellegaard Andersen, Benjamin Himpel, Søren Fuglede Jørgensen, Johan Martens, Brendan McLellan; The Witten-Reshetikhin-Turaev invariant for links in finite order mapping tori I.",
+        "publication": "preprint",
+        "id": "7",
+        "authors": [
+            1,
+            232
+        ]
     },
     "MR2883684": {
         "description": "Au, Thomas Kwok-Keung ; Luo, Feng ; Yang, Tian Lectures on the mapping class group of a surface. Transformation groups and moduli spaces of curves, 21–61, Adv. Lect. Math. (ALM), 16, Int. Press, Somerville, MA, 2011. 57N05 (57M60 57S05)",
@@ -327,6 +522,16 @@
             "MR1147804"
         ]
     },
+    "35": {
+        "date": 2014,
+        "description": "Stavros Garoufalidis, Matthias Goerner, Christian K. Zickert; The Ptolemy field of $3$-manifold-representations.",
+        "publication": "preprint",
+        "id": "35",
+        "authors": [
+            48,
+            128
+        ]
+    },
     "MR2978315": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR2978315",
         "date": 2012,
@@ -335,6 +540,18 @@
         "authors": [
             "MR932049",
             "MR360380"
+        ]
+    },
+    "102": {
+        "date": 2015,
+        "description": "François Guéritaud, Oivier Guichard, Fanny Kassel, Anna Wienhard; Compactifications of certain families of Clifford-Klein forms.",
+        "publication": "preprint",
+        "id": "102",
+        "authors": [
+            62,
+            275,
+            51,
+            119
         ]
     },
     "MR2865518": {
@@ -348,6 +565,19 @@
             "MR135835",
             "MR838920",
             "MR832567"
+        ]
+    },
+    "15": {
+        "date": 2012,
+        "description": "Michelle Bucher, Marc Burger, Roberto Frigerio, Alessandra Iozzi, Cristina Pagliantini, Maria Beatrice Pozzetti; Isometric properties of relative bounded cohomology",
+        "publication": "preprint",
+        "id": "15",
+        "authors": [
+            17,
+            18,
+            35,
+            56,
+            195
         ]
     },
     "MR3262200": {
@@ -369,6 +599,46 @@
         ],
         "date": 2014,
         "id": "MR3262203"
+    },
+    "123": {
+        "date": 2015,
+        "description": "Spencer Dowdall, Samuel J. Taylor; Contracting orbits in Outer space.",
+        "publication": "preprint",
+        "id": "123",
+        "authors": [
+            229,
+            289
+        ]
+    },
+    "124": {
+        "date": 2013,
+        "description": "Stavros Garoufalidis, Dylan P. Thurston, Christian K. Zickert; The complex volume of SL(n,C)-representations of 3-manifolds.",
+        "publication": "preprint",
+        "id": "124",
+        "authors": [
+            115,
+            128
+        ]
+    },
+    "125": {
+        "date": 2015,
+        "description": "Subhojoy Gupta, Michael Wolf; Quadratic differentials, half-plane structures, and harmonic maps to graphs.",
+        "publication": "preprint",
+        "id": "125",
+        "authors": [
+            237,
+            123
+        ]
+    },
+    "126": {
+        "date": 2015,
+        "description": "Tarik Aougab, Jonah Gaster; Curves intersecting exactly once and their dual cube complexes.",
+        "publication": "preprint",
+        "id": "126",
+        "authors": [
+            234,
+            343
+        ]
     },
     "MR3225582": {
         "description": "Cavazos, Samuel ; Lawton, Sean $E$ E -polynomial of ${\\rm SL}_2(\\Bbb C)$ {\\rm SL}_2(\\Bbb C) -character varieties of free groups. Internat. J. Math. 25 (2014), no. 6, 1450058, 27 pp. (Reviewer: Boris È. Kunyavskiĭ) 14L30 (14D20 14G05 14G15)",
@@ -411,6 +681,16 @@
         "date": 2015,
         "id": "MR3342243"
     },
+    "74": {
+        "date": 2014,
+        "description": "Jeffrey Brock, Kenneth Bromberg; Inflexibility, Weil-Petersson distance, and volumes of fibered 3-manifolds.",
+        "publication": "preprint",
+        "id": "74",
+        "authors": [
+            15,
+            16
+        ]
+    },
     "MR3493374": {
         "description": "Gupta, Subhojoy ; Wolf, Michael Quadratic differentials, half-plane structures, and harmonic maps to trees. Comment. Math. Helv. 91 (2016), no. 2, 317–356. 30F30 (30F60 53C43 58E20)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3493374",
@@ -420,6 +700,16 @@
         ],
         "date": 2016,
         "id": "MR3493374"
+    },
+    "118": {
+        "date": 2014,
+        "description": "Mladen Bestvina, Kenneth Bromberg, Koji Fujiwara; Constructing group actions on quasi-trees and applications to mapping class groups",
+        "publication": "preprint",
+        "id": "118",
+        "authors": [
+            16,
+            271
+        ]
     },
     "MR3079261": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3079261",
@@ -452,6 +742,16 @@
         "date": 2013,
         "id": "MR3029422"
     },
+    "58": {
+        "date": 2013,
+        "description": "Julien Paupert, Pierre Will; Real reflections, commutators and cross-ratios in complex hyperbolic space.",
+        "publication": "preprint",
+        "id": "58",
+        "authors": [
+            98,
+            122
+        ]
+    },
     "MR3325748": {
         "description": "Garoufalidis, Stavros ; Goerner, Matthias ; Zickert, Christian K. Gluing equations for $\\roman{PGL}(n,\\Bbb{C})$ \\roman{PGL}(n,\\Bbb{C}) -representations of 3-manifolds. Algebr. Geom. Topol. 15 (2015), no. 1, 565–622. (Reviewer: William W. Menasco) 57M27 (53D50 57N10)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3325748",
@@ -462,6 +762,37 @@
         ],
         "date": 2015,
         "id": "MR3325748"
+    },
+    "132": {
+        "date": 2013,
+        "description": "Johanna Mangahas, Samuel J. Taylor; Convex cocompactness in mapping class groups via quasiconvexity in right-angled Artin groups.",
+        "publication": "preprint",
+        "id": "132",
+        "authors": [
+            288,
+            289
+        ]
+    },
+    "55": {
+        "date": 2012,
+        "description": "Daniele Alessandrini, Lixin Liu, Athanase Papadopoulos, Weixu Su; On the inclusion of the quasiconformal Teichmüller space into the length-spectrum Teichmüller space",
+        "publication": "preprint",
+        "id": "55",
+        "authors": [
+            93,
+            223
+        ]
+    },
+    "54": {
+        "date": 2013,
+        "description": "Sara Maloni, Frederic Palesi, Ser Peow Tan; On the character variety of the four-holed sphere.",
+        "publication": "preprint",
+        "id": "54",
+        "authors": [
+            90,
+            113,
+            243
+        ]
     },
     "MR3458811": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3458811",
@@ -486,6 +817,16 @@
         "date": 2014,
         "id": "MR3289717"
     },
+    "51": {
+        "date": 2014,
+        "description": "Jon Chaika, Howard Masur, Michael Wolf; Limits in PMF of Teichmuller geodesics.",
+        "publication": "preprint",
+        "id": "51",
+        "authors": [
+            78,
+            123
+        ]
+    },
     "MR3289711": {
         "description": "Burger, Marc ; Iozzi, Alessandra ; Wienhard, Anna Higher Teichmüller spaces: from ${\\rm SL}(2,\\Bbb R)$ {\\rm SL}(2,\\Bbb R) to other Lie groups. Handbook of Teichmüller theory. Vol. IV, 539–618, IRMA Lect. Math. Theor. Phys., 19, Eur. Math. Soc., Zürich, 2014. (Reviewer: Sebastian Wolfgang Hensel) 57M50 (30F60 58D29)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3289711",
@@ -496,6 +837,16 @@
         ],
         "date": 2014,
         "id": "MR3289711"
+    },
+    "53": {
+        "date": 2014,
+        "description": "Walter Neumann, Anastasiia Tsvietkova; Intercusp geodesics and the invariant trace field of hyperbolic 3-manifolds.",
+        "publication": "preprint",
+        "id": "53",
+        "authors": [
+            88,
+            117
+        ]
     },
     "MR2783240 ": {
         "description": "Leininger, Christopher ; Long, Darren D. ; Reid, Alan W. Commensurators of finitely generated nonfree Kleinian groups. Algebr. Geom. Topol. 11 (2011), no. 1, 605–624. (Reviewer: Michael L. Mihalik) 20H10 (20F60 57M50)",
@@ -516,6 +867,16 @@
         "authors": [
             "MR600076",
             "MR719537"
+        ]
+    },
+    "63": {
+        "date": 2014,
+        "description": "Shinpei Baba, Subhojoy Gupta; Holonomy map fibers of $CP^1$-structures in moduli space.",
+        "publication": "preprint",
+        "id": "63",
+        "authors": [
+            224,
+            237
         ]
     },
     "MR3461365": {
@@ -573,6 +934,16 @@
         "date": 2014,
         "id": "MR3220475"
     },
+    "65": {
+        "date": 2014,
+        "description": "Brian Collier, Qiongling Li; Asymptotics of certain families of Higgs bundles in the Hitchin component.",
+        "publication": "preprint",
+        "id": "65",
+        "authors": [
+            149,
+            179
+        ]
+    },
     "MR2807841": {
         "description": "Delzant, Thomas ; Guichard, Olivier ; Labourie, François ; Mozes, Shahar Displacing representations and orbit maps. Geometry, rigidity, and group actions, 494–514, Chicago Lectures in Math., Univ. Chicago Press, Chicago, IL, 2011. (Reviewer: François Dahmani) 20F65 (20F67 22F05)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR2807841",
@@ -584,6 +955,16 @@
         ],
         "date": 2011,
         "id": "MR2807841"
+    },
+    "56": {
+        "date": 2013,
+        "description": "Athanase Papadopoulos, Robert C. Penner; Hyperbolic metrics, measured foliations and pants decompositions for non-orientable surfaces.",
+        "publication": "preprint",
+        "id": "56",
+        "authors": [
+            93,
+            99
+        ]
     },
     "MR2928979": {
         "description": "Boileau, Michel ; Boyer, Steven ; Cebanu, Radu ; Walsh, Genevieve S. Knot commensurability and the Berge conjecture. Geom. Topol. 16 (2012), no. 2, 625–664. (Reviewer: Jessica S. Purcell) 57M10 (57M25)",
@@ -608,6 +989,26 @@
         "date": 2012,
         "id": "MR2862377"
     },
+    "27": {
+        "date": 2013,
+        "description": "Alex Eskin, Maryam Mirzakhani; Invariant and stationary measures for the SL(2,R) action on Moduli space.",
+        "publication": "preprint",
+        "id": "27",
+        "authors": [
+            32,
+            84
+        ]
+    },
+    "30": {
+        "date": 2013,
+        "description": "R. Frigerio, M. B. Pozzetti, A. Sisto; Extending higher dimensional quasi-cocycles.",
+        "publication": "preprint",
+        "id": "30",
+        "authors": [
+            35,
+            195
+        ]
+    },
     "MR2872556": {
         "description": "Cavendish, William ; Parlier, Hugo Growth of the Weil-Petersson diameter of moduli space. Duke Math. J. 161 (2012), no. 1, 139–171. (Reviewer: Ioannis D. Platis) 32G15",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR2872556",
@@ -617,6 +1018,18 @@
         ],
         "date": 2012,
         "id": "MR2872556"
+    },
+    "10": {
+        "date": 2013,
+        "description": "Martin Bridgeman, Richard Canary, Francois Labourie, Andres Sambarino; The pressure metric for convex representations.",
+        "publication": "preprint",
+        "id": "10",
+        "authors": [
+            13,
+            20,
+            66,
+            103
+        ]
     },
     "MR3413187": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3413187",
@@ -638,6 +1051,36 @@
             "MR337701",
             "MR135835",
             "MR838920"
+        ]
+    },
+    "114": {
+        "date": 2015,
+        "description": "Mark F. Hagen, Priyam Patel; Quantifying separability in virtually special groups.",
+        "publication": "preprint",
+        "id": "114",
+        "authors": [
+            248,
+            297
+        ]
+    },
+    "88": {
+        "date": 2014,
+        "description": "Federica Fanoni, Hugo Parlier; Systoles and kissing numbers of finite area hyperbolic surfaces.",
+        "publication": "preprint",
+        "id": "88",
+        "authors": [
+            95,
+            268
+        ]
+    },
+    "89": {
+        "date": 2014,
+        "description": "Ariadna Fossas, Hugo Parlier; Curve graphs on surfaces of infinite type.",
+        "publication": "preprint",
+        "id": "89",
+        "authors": [
+            95,
+            231
         ]
     },
     "MR3460762": {
@@ -671,6 +1114,68 @@
         "date": 2014,
         "id": "MR3263507"
     },
+    "112": {
+        "date": 2014,
+        "description": "Jens Kristian Egsgaard, Søren Fuglede Jørgensen; The homological content of the Jones representations at $q = -1$.",
+        "publication": "preprint",
+        "id": "112",
+        "authors": [
+            154,
+            232
+        ]
+    },
+    "82": {
+        "date": 2014,
+        "description": "Vladimir Fock, Alexander Goncharov; Symplectic double for moduli spaces of G-local systems on surfaces.",
+        "publication": "preprint",
+        "id": "82",
+        "authors": [
+            37,
+            47
+        ]
+    },
+    "83": {
+        "date": 2015,
+        "description": "François Guéritaud, Olivier Guichard, Fanny Kassel, Anna Wienhard; Anosov representations and proper actions.",
+        "publication": "preprint",
+        "id": "83",
+        "authors": [
+            51,
+            62,
+            119,
+            275
+        ]
+    },
+    "80": {
+        "date": 2014,
+        "description": "Carlos Florentino, Sean Lawton, Daniel Ramras; Homotopy Groups of Free Group Character Varieties.",
+        "publication": "preprint",
+        "id": "80",
+        "authors": [
+            36,
+            67
+        ]
+    },
+    "52": {
+        "date": 2013,
+        "description": "Mahan Mj, Caroline Series; Limits of limit sets II: Geometrically Infinite Groups.",
+        "publication": "preprint",
+        "id": "52",
+        "authors": [
+            85,
+            108
+        ]
+    },
+    "86": {
+        "date": 2014,
+        "description": "Samuel A. Ballas, Darren Long; Constructing thin subgroups commensurable with the figure-eight knot group.",
+        "publication": "preprint",
+        "id": "86",
+        "authors": [
+            71,
+            226
+        ]
+    },
     "MR3111990": {
         "description": "Andersen, J. E. ; Penner, R. C. ; Reidys, C. M. ; Waterman, M. S. Topological classification and enumeration of RNA structures by genus. J. Math. Biol. 67 (2013), no. 5, 1261–1278. 92D20 (05C10 57M25)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3111990",
@@ -682,6 +1187,16 @@
         ],
         "date": 2013,
         "id": "MR3111990"
+    },
+    "84": {
+        "date": 2014,
+        "description": "Neha Gupta, Ilya Kapovich; The primitivity index function for a free group, and untangling closed curves on hyperbolic surfaces.",
+        "publication": "preprint",
+        "id": "84",
+        "authors": [
+            60,
+            161
+        ]
     },
     "MR2897054": {
         "description": "Bonahon, Francis ; Šarić, Dragomir Infinitesimal Liouville currents, cross-ratios and intersection numbers. J. Topol. 5 (2012), no. 1, 213–225. (Reviewer: Anna Wienhard) 30F60",
@@ -715,6 +1230,26 @@
         ],
         "date": 2012,
         "id": "MR2999311"
+    },
+    "117": {
+        "date": 2015,
+        "description": "Michelle Bucher, Roberto Frigerio, Cristina Pagliantini; A quantitative version of a theorem by Jungreis.",
+        "publication": "preprint",
+        "id": "117",
+        "authors": [
+            17,
+            35
+        ]
+    },
+    "129": {
+        "date": 2013,
+        "description": "Mladen Bestvina, Kenneth Bromberg, Koji Fujiwara; Bounded cohomology with coefficients in uniformly convex Banach spaces.",
+        "publication": "preprint",
+        "id": "129",
+        "authors": [
+            16,
+            271
+        ]
     },
     "MR2851869 ": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR2851869 ",
@@ -768,6 +1303,16 @@
             "MR759027",
             "MR677695",
             "MR643922"
+        ]
+    },
+    "121": {
+        "date": 2013,
+        "description": "Sebastian Hensel, Piotr Przytycki, Richard C. H. Webb; Slim unicorns and uniform hyperbolicity for arc graphs and curve graphs.",
+        "publication": "preprint",
+        "id": "121",
+        "authors": [
+            290,
+            238
         ]
     },
     "MR3213829": {
@@ -886,6 +1431,17 @@
         "date": 2014,
         "id": "MR3180618"
     },
+    "109": {
+        "date": 2013,
+        "description": "Jeffrey Danciger, François Guéritaud, Fanny Kassel; Geometry and topology of complete Lorentz spacetimes of constant curvature.",
+        "publication": "preprint",
+        "id": "109",
+        "authors": [
+            275,
+            62,
+            293
+        ]
+    },
     "MR3262435": {
         "description": "Burelle, Jean-Philippe ; Charette, Virginie ; Drumm, Todd A. ; Goldman, William M. Crooked halfspaces. Enseign. Math. 60 (2014), no. 1-2, 43–78. (Reviewer: J. Carlos Díaz-Ramos) 53C50 (53B30)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3262435",
@@ -897,6 +1453,16 @@
         ],
         "date": 2014,
         "id": "MR3262435"
+    },
+    "128": {
+        "date": 2013,
+        "description": "Mladen Bestvina, Kenneth Bromberg, Koji Fujiwara; Stable commutator length on mapping class groups.",
+        "publication": "preprint",
+        "id": "128",
+        "authors": [
+            16,
+            271
+        ]
     },
     "MR3447110": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3447110",
@@ -929,6 +1495,16 @@
         ],
         "date": 2012,
         "id": "MR2901355"
+    },
+    "108": {
+        "date": 2014,
+        "description": "Jeffrey Brock, Babak Modami; Recurrent Weil-Petersson geodesic rays with non-uniquely ergodic ending laminations.",
+        "publication": "preprint",
+        "id": "108",
+        "authors": [
+            15,
+            285
+        ]
     },
     "MR2869090 ": {
         "description": "Luo, Feng ; Schlenker, Jean-Marc Volume maximization and the extended hyperbolic space. Proc. Amer. Math. Soc. 140 (2012), no. 3, 1053–1068. (Reviewer: Colin C. Adams) 57M50 (51M10 52B70)",
@@ -963,6 +1539,26 @@
         "date": 2012,
         "id": "MR2913101"
     },
+    "95": {
+        "date": 2014,
+        "description": "Benjamin Linowitz, D. B. McReynolds, Paul Pollack, Lola Thompson; Counting and effective rigidity in algebra and geometry.",
+        "publication": "preprint",
+        "id": "95",
+        "authors": [
+            79,
+            283
+        ]
+    },
+    "20": {
+        "date": 2013,
+        "description": "Daryl Cooper, Darren Long; A generalization of the Epstein-Penner construction to projective manifolds.",
+        "publication": "preprint",
+        "id": "20",
+        "authors": [
+            22,
+            71
+        ]
+    },
     "MR2827011 ": {
         "description": "Brock, Jeffrey ; Masur, Howard ; Minsky, Yair Asymptotics of Weil-Petersson geodesics II: bounded geometry and unbounded entropy. Geom. Funct. Anal. 21 (2011), no. 4, 820–850. (Reviewer: V. V. Chueshev) 32G15 (30F10 30F45 30F60 37D40)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR2827011 ",
@@ -973,6 +1569,16 @@
         ],
         "date": 2011,
         "id": "MR2827011 "
+    },
+    "101": {
+        "date": 2013,
+        "description": "François Guéritaud, Fanny Kassel; Maximally stretched laminations on geometrically finite hyperbolic manifolds.",
+        "publication": "preprint",
+        "id": "101",
+        "authors": [
+            275,
+            62
+        ]
     },
     "MR3494163": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3494163",
@@ -997,6 +1603,48 @@
         "date": 2011,
         "id": "MR2879247"
     },
+    "104": {
+        "date": 2014,
+        "description": "Gye-Seon Lee, Tengren Zhang; Collar lemma for Hitchin representations.",
+        "publication": "preprint",
+        "id": "104",
+        "authors": [
+            240,
+            340
+        ]
+    },
+    "105": {
+        "date": 2014,
+        "description": "Hugo Parlier, Bram Petri; The genus of curve, pants and flip graphs.",
+        "publication": "preprint",
+        "id": "105",
+        "authors": [
+            192,
+            95
+        ]
+    },
+    "39": {
+        "date": 2013,
+        "description": "Spencer Dowdall, Ilya Kapovich, Christopher J. Leininger; McMullen polynomials and Lipschitz flows for free-by-cyclic groups.",
+        "publication": "preprint",
+        "id": "39",
+        "authors": [
+            229,
+            60,
+            68
+        ]
+    },
+    "38": {
+        "date": 2013,
+        "description": "Spencer Dowdall, Ilya Kapovich, Christopher J. Leininger; Dynamics on free-by-cyclic groups.",
+        "publication": "preprint",
+        "id": "38",
+        "authors": [
+            229,
+            60,
+            68
+        ]
+    },
     "MR2765549 ": {
         "description": "Bonfert-Taylor, Petra ; Canary, Richard D. ; Souto, Juan ; Taylor, Edward C. Exotic quasi-conformally homogeneous surfaces. Bull. Lond. Math. Soc. 43 (2011), no. 1, 57–62. (Reviewer: Masahiko Taniguchi) 30F20 (30C62)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR2765549 ",
@@ -1008,6 +1656,40 @@
         ],
         "date": 2011,
         "id": "MR2765549 "
+    },
+    "33": {
+        "date": 2012,
+        "description": "Thierry Barbot, Francesco Bonsante, Jeffrey Danciger, William M. Goldman, François Guéritaud, Fanny Kassel, Kirill Krasnov, Jean-Marc Schlenker, Abdelghani Zeghib; Some open questions on anti-de Sitter geometry",
+        "publication": "preprint",
+        "id": "33",
+        "authors": [
+            46,
+            62,
+            106,
+            275,
+            293
+        ]
+    },
+    "32": {
+        "date": 2014,
+        "description": "Oscar García-Prada, André Oliveira; Connectivity of Higgs bundle moduli for complex reductive Lie groups.",
+        "publication": "preprint",
+        "id": "32",
+        "authors": [
+            43,
+            89
+        ]
+    },
+    "31": {
+        "date": 2014,
+        "description": "Ana Casimiro, Carlos Florentino, Sean Lawton, André Oliveira; Topology of Moduli Spaces of Free Group Representations in Real Reductive Groups.",
+        "publication": "preprint",
+        "id": "31",
+        "authors": [
+            36,
+            67,
+            89
+        ]
     },
     "MR3466569": {
         "description": "Casimiro, Ana ; Florentino, Carlos ; Lawton, Sean ; Oliveira, André Topology of moduli spaces of free group representations in real reductive groups. Forum Math. 28 (2016), no. 2, 275–294. 20G05 (14D20 14L30 14P25 32G13)",
@@ -1021,6 +1703,26 @@
         "date": 2016,
         "id": "MR3466569"
     },
+    "37": {
+        "date": 2012,
+        "description": "Ilya Kapovich, Martin Lustig; Cannon-Thurston fibers for irreducible automorphisms of $F_N$.",
+        "publication": "preprint",
+        "id": "37",
+        "authors": [
+            60,
+            73
+        ]
+    },
+    "36": {
+        "date": 2012,
+        "description": "Annette A'Campo-Neuen, Norbert A'Campo, Lizhen Ji, Athanase Papadopoulos; A commentary on Teichmüller's paper 'Veränderliche Riemannsche Flächen' (Variable Riemann Surfaces)",
+        "publication": "preprint",
+        "id": "36",
+        "authors": [
+            58,
+            93
+        ]
+    },
     "MR3266531": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3266531",
         "date": 2014,
@@ -1029,6 +1731,16 @@
         "authors": [
             "MR670970",
             "MR852777"
+        ]
+    },
+    "34": {
+        "date": 2012,
+        "description": "Stavros Garoufalidis, Matthias Goerner, Christian K. Zickert; Gluing equations for PGL(n,C)-representations of 3-manifolds.",
+        "publication": "preprint",
+        "id": "34",
+        "authors": [
+            48,
+            128
         ]
     },
     "MR3385630": {
@@ -1041,6 +1753,16 @@
             "MR248015",
             "MR108970",
             "MR1062326"
+        ]
+    },
+    "59": {
+        "date": 2014,
+        "description": "Anna Lenzhen, Kasra Rafi, Jing Tao; The shadow of a Thurston geodesic to the curve graph.",
+        "publication": "preprint",
+        "id": "59",
+        "authors": [
+            101,
+            114
         ]
     },
     "MR2859902 ": {
@@ -1150,6 +1872,26 @@
             "MR871811"
         ]
     },
+    "115": {
+        "date": 2014,
+        "description": "Martin Brandenburg, Alexandru Chirvasitu, Theo Johnson-Freyd; Reflexivity and dualizability in categorified linear algebra.",
+        "publication": "preprint",
+        "id": "115",
+        "authors": [
+            168,
+            146
+        ]
+    },
+    "72": {
+        "date": 2015,
+        "description": "Michel Boileau, Steven Boyer, Radu Cebanu, Genevieve S. Walsh; Knot complements, hidden symmetries and reflection orbifolds.",
+        "publication": "preprint",
+        "id": "72",
+        "authors": [
+            9,
+            11
+        ]
+    },
     "MR3432157": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3432157",
         "date": 2015,
@@ -1160,15 +1902,36 @@
             "MR184085"
         ]
     },
+    "71": {
+        "date": 2015,
+        "description": "Jørgen Ellegaard Andersen, Leonid O. Chekhov, Paul Norbury, Robert C. Penner; Models of discretized moduli spaces, cohomological field theories, and Gaussian means.",
+        "publication": "preprint",
+        "id": "71",
+        "authors": [
+            1,
+            99
+        ]
+    },
     "MR3502022": {
-        "description": "Mangahas, Johanna ; Taylor, Samuel J. Convex cocompactness in mapping class groups via quasiconvexity in right-angled Artin groups. Proc. Lond. Math. Soc. (3) 112 (2016), no. 5, 855–881. 30F60 (20F36 20F65 57N05)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3502022",
+        "date": 2016,
+        "description": "Mangahas, Johanna ; Taylor, Samuel J. Convex cocompactness in mapping class groups via quasiconvexity in right-angled Artin groups. Proc. Lond. Math. Soc. (3) 112 (2016), no. 5, 855–881. 30F60 (20F36 20F65 57N05)",
+        "id": "MR3502022",
         "authors": [
             "MR891559",
             "MR905553"
-        ],
-        "date": 2016,
-        "id": "MR3502022"
+        ]
+    },
+    "70": {
+        "date": 2014,
+        "description": "Jørgen Ellegaard Andersen, Paolo Masulli, Florian Schätz; Formal Connections for families of Star Products.",
+        "publication": "preprint",
+        "id": "70",
+        "authors": [
+            1,
+            185,
+            253
+        ]
     },
     "MR3370029": {
         "description": "Cooper, Daryl ; Manning, Jason Fox Non-faithful representations of surface groups into $SL(2,\\Bbb{C})$ SL(2,\\Bbb{C}) which kill no simple closed curve. Geom. Dedicata 177 (2015), 165–187. (Reviewer: Bruno P. Zimmermann) 57N05 (20F65 57M05)",
@@ -1180,6 +1943,17 @@
         "date": 2015,
         "id": "MR3370029"
     },
+    "29": {
+        "date": 2013,
+        "description": "Alex Eskin, Howard Masur, Kasra Rafi; Large scale rank of Teichmuller space.",
+        "publication": "preprint",
+        "id": "29",
+        "authors": [
+            32,
+            78,
+            101
+        ]
+    },
     "MR2914860": {
         "description": "Clay, Matt T. ; Leininger, Christopher J. ; Mangahas, Johanna The geometry of right-angled Artin subgroups of mapping class groups. Groups Geom. Dyn. 6 (2012), no. 2, 249–278. (Reviewer: Robert W. Bell) 57M07 (20F65)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR2914860",
@@ -1190,6 +1964,16 @@
         ],
         "date": 2012,
         "id": "MR2914860"
+    },
+    "61": {
+        "date": 2014,
+        "description": "Caroline Series, Ser Peow Tan, Yasushi Yamashita; The diagonal slice of Schottky space.",
+        "publication": "preprint",
+        "id": "61",
+        "authors": [
+            108,
+            113
+        ]
     },
     "MR3488025": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3488025",
@@ -1213,6 +1997,16 @@
         "date": 2013,
         "id": "MR3021551"
     },
+    "64": {
+        "date": 2014,
+        "description": "Edgar A. Bering IV, Jonah Gaster; The random graph embeds in the curve graph of any infinite genus surface.",
+        "publication": "preprint",
+        "id": "64",
+        "authors": [
+            234,
+            133
+        ]
+    },
     "MR3332895": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3332895",
         "date": 2015,
@@ -1221,6 +2015,47 @@
         "authors": [
             "MR605373",
             "MR925092"
+        ]
+    },
+    "66": {
+        "date": 2014,
+        "description": "Caglar Uyanik, Grace Work; The distribution of gaps for saddle connections on the octagon.",
+        "publication": "preprint",
+        "id": "66",
+        "authors": [
+            215,
+            217
+        ]
+    },
+    "67": {
+        "date": 2013,
+        "description": "John Loftin, Ian McIntosh; Cubic Differentials in the Differential Geometry of Surfaces.",
+        "publication": "preprint",
+        "id": "67",
+        "authors": [
+            70,
+            265
+        ]
+    },
+    "68": {
+        "date": 2013,
+        "description": "David Futer, Efstratia Kalfagianni, Jessica S. Purcell; Hyperbolic semi-adequate links.",
+        "publication": "preprint",
+        "id": "68",
+        "authors": [
+            40,
+            266,
+            273
+        ]
+    },
+    "69": {
+        "date": 2015,
+        "description": "Ian Agol, Nathan M. Dunfield; Certifying the Thurston norm via SL(2, C)-twisted homology.",
+        "publication": "preprint",
+        "id": "69",
+        "authors": [
+            0,
+            31
         ]
     },
     "MR3247048": {
@@ -1307,6 +2142,16 @@
         "date": 2013,
         "id": "MR3074368"
     },
+    "106": {
+        "date": 2011,
+        "description": "Ilya Kapovich, Martin Lustig; Domains of proper discontinuity on the boundary of Outer space.",
+        "publication": "preprint",
+        "id": "106",
+        "authors": [
+            60,
+            73
+        ]
+    },
     "MR3418528": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3418528",
         "date": 2015,
@@ -1326,6 +2171,16 @@
         "authors": [
             "MR600076",
             "MR117090"
+        ]
+    },
+    "107": {
+        "date": 2014,
+        "description": "Javier Aramayona, Thomas Koberda, Hugo Parlier; Injective maps between flip graphs.",
+        "publication": "preprint",
+        "id": "107",
+        "authors": [
+            95,
+            280
         ]
     },
     "MR3356771": {
@@ -1412,6 +2267,36 @@
             "MR807518"
         ]
     },
+    "43": {
+        "date": 2013,
+        "description": "Michael Kapovich, Bernhard Leeb, Joan Porti; Dynamics at infinity of regular discrete subgroups of isometries of higher rank symmetric spaces.",
+        "publication": "preprint",
+        "id": "43",
+        "authors": [
+            61,
+            100
+        ]
+    },
+    "6": {
+        "date": 2013,
+        "description": "N.V.Alexeev, J.E.Andersen, R.C.Penner, P.G.Zograf; Enumeration of chord diagrams on many intervals and their non-orientable analogs.",
+        "publication": "preprint",
+        "id": "6",
+        "authors": [
+            1,
+            99
+        ]
+    },
+    "60": {
+        "date": 2014,
+        "description": "Kasra Rafi, Jing Tao; Uniform growth rate.",
+        "publication": "preprint",
+        "id": "60",
+        "authors": [
+            101,
+            114
+        ]
+    },
     "MR2763776 ": {
         "description": "Futer, David ; Kalfagianni, Efstratia ; Purcell, Jessica S. Slopes and colored Jones polynomials of adequate knots. Proc. Amer. Math. Soc. 139 (2011), no. 5, 1889–1896. (Reviewer: Charles Livingston) 57M27 (57M25)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR2763776 ",
@@ -1422,6 +2307,27 @@
         ],
         "date": 2011,
         "id": "MR2763776 "
+    },
+    "99": {
+        "date": 2014,
+        "description": "Danny Calegari, Sarah Koch, Alden Walker; Roots, Schottky semigroups, and a proof of Bandt's Conjecture.",
+        "publication": "preprint",
+        "id": "99",
+        "authors": [
+            366,
+            19,
+            287
+        ]
+    },
+    "98": {
+        "date": 2014,
+        "description": "Danny Calegari, Alden Walker; Surface subgroups from linear programming.",
+        "publication": "preprint",
+        "id": "98",
+        "authors": [
+            366,
+            19
+        ]
     },
     "MR3026348": {
         "description": "Bucher, Michelle ; Burger, Marc ; Iozzi, Alessandra A dual interpretation of the Gromov-Thurston proof of Mostow rigidity and volume rigidity for representations of hyperbolic lattices. Trends in harmonic analysis, 47–76, Springer INdAM Ser., 3, Springer, Milan, 2013. (Reviewer: Martin Deraux) 53C24 (22E40 22E41)",
@@ -1466,6 +2372,16 @@
         "date": 2012,
         "id": "MR2927352"
     },
+    "8": {
+        "date": 2012,
+        "description": "Jayadev S. Athreya, Alex Eskin, Anton Zorich, with an appendix by Jon Chaika; Right-angled billiards and volumes of moduli spaces of quadratic differentials on CP^1.",
+        "publication": "preprint",
+        "id": "8",
+        "authors": [
+            2,
+            32
+        ]
+    },
     "MR2882774": {
         "description": "Wentworth, Richard A. ; Wilkin, Graeme Morse theory and stable pairs. Variational problems in differential geometry, 142–181, London Math. Soc. Lecture Note Ser., 394, Cambridge Univ. Press, Cambridge, 2012. (Reviewer: Johan A. Martens) 58E15 (53C07 58D27)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR2882774",
@@ -1476,6 +2392,17 @@
         "date": 2012,
         "id": "MR2882774"
     },
+    "90": {
+        "date": 2014,
+        "description": "Jeffrey Danciger, Sara Maloni, Jean-Marc Schlenker; Polyhedra inscribed in a quadric",
+        "publication": "preprint",
+        "id": "90",
+        "authors": [
+            106,
+            243,
+            293
+        ]
+    },
     "MR3379819": {
         "description": "Charette, Virginie ; Drumm, Todd A. Complete Lorentzian 3-manifolds. Geometry, groups and dynamics, 43–72, Contemp. Math., 639, Amer. Math. Soc., Providence, RI, 2015. (Reviewer: John G. Ratcliffe) 53C50 (20H10 30F35 30F60)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3379819",
@@ -1485,6 +2412,16 @@
         ],
         "date": 2015,
         "id": "MR3379819"
+    },
+    "92": {
+        "date": 2015,
+        "description": "Michael Wolf, Yunhui Wu; Uniform Bounds for Weil-Petersson Curvatures.",
+        "publication": "preprint",
+        "id": "92",
+        "authors": [
+            123,
+            258
+        ]
     },
     "MR2921611": {
         "description": "Haines, Thomas J. ; Kapovich, Michael ; Millson, John J. Ideal triangles in Euclidean buildings and branching to Levi subgroups. J. Algebra 361 (2012), 41–78. (Reviewer: Maarten Sander Solleveld) 20E42 (20G15)",
@@ -1507,6 +2444,36 @@
             "MR898909"
         ]
     },
+    "97": {
+        "date": 2014,
+        "description": "Benson Farb, Howard Masur; Teichmuller geometry of moduli space, II: M(S) seen from far away.",
+        "publication": "preprint",
+        "id": "97",
+        "authors": [
+            34,
+            78
+        ]
+    },
+    "96": {
+        "date": 2015,
+        "description": "Benjamin Linowitz, Matthew Stover, John Voight; Fake Quadrics.",
+        "publication": "preprint",
+        "id": "96",
+        "authors": [
+            283,
+            112
+        ]
+    },
+    "11": {
+        "date": 2013,
+        "description": "Martin Bridgeman, Ser Peow Tan; Identities on Hyperbolic Manifolds.",
+        "publication": "preprint",
+        "id": "11",
+        "authors": [
+            13,
+            113
+        ]
+    },
     "MR3336835": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3336835",
         "date": 2015,
@@ -1516,6 +2483,28 @@
             "MR938076",
             "MR804559",
             "MR1104740"
+        ]
+    },
+    "13": {
+        "date": 2013,
+        "description": "Jeffrey Brock, Yair Minsky, Hossein Namazi, Juan Souto; Bounded combinatorics and uniform models for hyperbolic 3-manifolds.",
+        "publication": "preprint",
+        "id": "13",
+        "authors": [
+            15,
+            83,
+            111
+        ]
+    },
+    "12": {
+        "date": 2014,
+        "description": "Martin Bridgeman, Richard Canary, Andrew Yarmola; An improved bound for Sullivan's convex hull theorem.",
+        "publication": "preprint",
+        "id": "12",
+        "authors": [
+            13,
+            20,
+            338
         ]
     },
     "MR2831259": {
@@ -1529,6 +2518,60 @@
         ],
         "date": 2011,
         "id": "MR2831259"
+    },
+    "14": {
+        "date": 2014,
+        "description": "Jeffrey Brock, Kenneth Bromberg, Richard Canary, Cyril Lecuire; Convergence and divergence of Kleinian surface groups.",
+        "publication": "preprint",
+        "id": "14",
+        "authors": [
+            15,
+            16,
+            20,
+            276
+        ]
+    },
+    "17": {
+        "date": 2014,
+        "description": "Michelle Bucher, Marc Burger, Alessandra Iozzi; Integrality of Volumes of Representations.",
+        "publication": "preprint",
+        "id": "17",
+        "authors": [
+            17,
+            18,
+            56
+        ]
+    },
+    "16": {
+        "date": 2012,
+        "description": "M. Bucher, R. Frigerio, C. Pagliantini; The simplicial volume of 3-manifolds with boundary.",
+        "publication": "preprint",
+        "id": "16",
+        "authors": [
+            17,
+            35
+        ]
+    },
+    "19": {
+        "date": 2012,
+        "description": "Daryl Cooper, William Goldman; A 3-Manifold with no Real Projective Structure.",
+        "publication": "preprint",
+        "id": "19",
+        "authors": [
+            22,
+            46
+        ]
+    },
+    "18": {
+        "date": 2013,
+        "description": "Gabi Ben Simon, Marc Burger, Tobias Hartnick, Alessandra Iozzi, Anna Wienhard; On weakly maximal representations of surface groups.",
+        "publication": "preprint",
+        "id": "18",
+        "authors": [
+            18,
+            56,
+            119
+        ]
     },
     "MR3238310": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3238310",
@@ -1573,6 +2616,16 @@
             "MR688414"
         ]
     },
+    "116": {
+        "date": 2015,
+        "description": "Martin Bridgeman, Richard Canary; Renormalized volume and the volume of the convex core.",
+        "publication": "preprint",
+        "id": "116",
+        "authors": [
+            20,
+            13
+        ]
+    },
     "MR2993065": {
         "description": "Menal-Ferrer, Pere ; Porti, Joan Twisted cohomology for hyperbolic three manifolds. Osaka J. Math. 49 (2012), no. 3, 741–769. (Reviewer: Cenap Özel) 57M50 (20C15)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR2993065",
@@ -1582,6 +2635,17 @@
         ],
         "date": 2012,
         "id": "MR2993065"
+    },
+    "111": {
+        "date": 2014,
+        "description": "Jeffrey Danciger, François Guéritaud, Fanny Kassel; Margulis spacetimes via the arc complex.",
+        "publication": "preprint",
+        "id": "111",
+        "authors": [
+            275,
+            62,
+            293
+        ]
     },
     "MR3356768": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3356768",
@@ -1626,6 +2690,17 @@
         ],
         "date": 2011,
         "id": "MR2786591 "
+    },
+    "110": {
+        "date": 2014,
+        "description": "Jeffrey Danciger, François Guéritaud, Fanny Kassel; Fundamental domains for free groups acting on anti-de Sitter 3-space.",
+        "publication": "preprint",
+        "id": "110",
+        "authors": [
+            275,
+            62,
+            293
+        ]
     },
     "MR3073933": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3073933",
@@ -1693,6 +2768,16 @@
             "MR925092"
         ]
     },
+    "62": {
+        "date": 2014,
+        "description": "Hengnan Hu, Ser Peow Tan, Ying Zhang; A new identity for SL(2,C)-characters of the once punctured torus group.",
+        "publication": "preprint",
+        "id": "62",
+        "authors": [
+            113,
+            239
+        ]
+    },
     "MR3336086": {
         "description": "Cooper, D. ; Long, D. D. ; Tillmann, S. On convex projective manifolds and cusps. Adv. Math. 277 (2015), 181–251. (Reviewer: Thilo Kuessner) 57N16 (57M50)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3336086",
@@ -1703,6 +2788,16 @@
         ],
         "date": 2015,
         "id": "MR3336086"
+    },
+    "113": {
+        "date": 2015,
+        "description": "Mario Garcia-Fernandez, Roberto Rubio, Carl Tipler; Infinitesimal moduli for the Strominger system and generalized Killing spinors.",
+        "publication": "preprint",
+        "id": "113",
+        "authors": [
+            199,
+            233
+        ]
     },
     "MR2846324 ": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR2846324 ",
@@ -1747,6 +2842,16 @@
             "MR1013453"
         ]
     },
+    "100": {
+        "date": 2014,
+        "description": "Daryl Cooper, Jason Fox Manning; Non-faithful representations of surface groups into SL(2,C) which kill no simple closed curve.",
+        "publication": "preprint",
+        "id": "100",
+        "authors": [
+            22,
+            75
+        ]
+    },
     "MR3161312": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3161312",
         "date": 2014,
@@ -1755,6 +2860,16 @@
         "authors": [
             "MR652687",
             "MR125000"
+        ]
+    },
+    "103": {
+        "date": 2015,
+        "description": "François Labourie, Richard Wentworth; Variations along the Fuchsian locus.",
+        "publication": "preprint",
+        "id": "103",
+        "authors": [
+            66,
+            118
         ]
     },
     "MR3415065": {
@@ -1778,6 +2893,16 @@
         ],
         "date": 2012,
         "id": "MR2926987"
+    },
+    "25": {
+        "date": 2014,
+        "description": "Sorin Dumitrescu, Karin Melnick; Quasihomogeneous three-dimensional real analytic Lorentz metrics do not exist.",
+        "publication": "preprint",
+        "id": "25",
+        "authors": [
+            30,
+            81
+        ]
     },
     "MR3431671": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3431671",
@@ -1833,6 +2958,78 @@
         "date": 2013,
         "id": "MR3145000"
     },
+    "48": {
+        "date": 2013,
+        "description": "Christopher Leininger, Anna Lenzhen, Kasra Rafi; Limit sets of Teichmüller geodesics with minimal non-uniquely ergodic vertical foliation.",
+        "publication": "preprint",
+        "id": "48",
+        "authors": [
+            68,
+            101
+        ]
+    },
+    "49": {
+        "date": 2014,
+        "description": "Feng Luo, Tian Yang; Volume and rigidity of hyperbolic polyhedral $3$-manifolds.",
+        "publication": "preprint",
+        "id": "49",
+        "authors": [
+            72,
+            260
+        ]
+    },
+    "46": {
+        "date": 2012,
+        "description": "Spencer Dowdall, Richard P. Kent IV, Christopher J. Leininger; Pseudo-Anosov subgroups of fibered 3-manifold groups.",
+        "publication": "preprint",
+        "id": "46",
+        "authors": [
+            63,
+            68,
+            229
+        ]
+    },
+    "47": {
+        "date": 2013,
+        "description": "Sean Lawton, Larsen Louder, D. B. McReynolds; Decision problems, complexity, traces, and representations.",
+        "publication": "preprint",
+        "id": "47",
+        "authors": [
+            67,
+            79
+        ]
+    },
+    "44": {
+        "date": 2014,
+        "description": "Michael Kapovich, Bernhard Leeb, Joan Porti; Morse actions of discrete groups on symmetric space.",
+        "publication": "preprint",
+        "id": "44",
+        "authors": [
+            61,
+            100
+        ]
+    },
+    "45": {
+        "date": 2013,
+        "description": "François Guéritaud, Fanny Kassel, Maxime Wolff; Compact anti-de Sitter 3-manifolds and folded hyperbolic structures on surfaces.",
+        "publication": "preprint",
+        "id": "45",
+        "authors": [
+            62,
+            124,
+            275
+        ]
+    },
+    "42": {
+        "date": 2013,
+        "description": "John J. Millson, Michael Kapovich; On representation varieties of 3-manifold groups.",
+        "publication": "preprint",
+        "id": "42",
+        "authors": [
+            60,
+            82
+        ]
+    },
     "MR2883417": {
         "description": "Andersen, Jørgen Ellegaard ; Blaavand, Jakob Lindblad Asymptotics of Toeplitz operators and applications in TQFT. Geometry and quantization, 167–201, Trav. Math., 19, Univ. Luxemb., Luxembourg, 2011. (Reviewer: Martin Schlichenmaier) 53D50 (32J27 47B35 53D30 53D55 57R19)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR2883417",
@@ -1842,6 +3039,36 @@
         ],
         "date": 2011,
         "id": "MR2883417"
+    },
+    "40": {
+        "date": 2014,
+        "description": "Woojin Jeon, Ilya Kapovich, Christopher Leininger, Ken'ichi Ohshika; Conical limit points and the Cannon-Thurston map.",
+        "publication": "preprint",
+        "id": "40",
+        "authors": [
+            60,
+            68
+        ]
+    },
+    "41": {
+        "date": 2014,
+        "description": "Ilya Kapovich, Martin Lustig; Patterson-Sullivan currents, generic stretching factors and the asymmetric Lipschitz metric for Outer space.",
+        "publication": "preprint",
+        "id": "41",
+        "authors": [
+            60,
+            73
+        ]
+    },
+    "1": {
+        "date": 2014,
+        "description": "Ian Agol, Daniel Groves, Jason Fox Manning; An alternate proof of Wise's Malnormal Special Quotient Theorem.",
+        "publication": "preprint",
+        "id": "1",
+        "authors": [
+            0,
+            75
+        ]
     },
     "MR3118399": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3118399",
@@ -1908,6 +3135,27 @@
             "MR796093"
         ]
     },
+    "85": {
+        "date": 2014,
+        "description": "Michael Kapovich, Bernhard Leeb, Joan Porti; A Morse Lemma for quasigeodesics in symmetric spaces and euclidean buildings.",
+        "publication": "preprint",
+        "id": "85",
+        "authors": [
+            61,
+            100
+        ]
+    },
+    "131": {
+        "date": 2014,
+        "description": "Thomas Koberda, Johanna Mangahas, Samuel J. Taylor; The geometry of purely loxodromic subgroups of right-angled Artin groups.",
+        "publication": "preprint",
+        "id": "131",
+        "authors": [
+            280,
+            288,
+            289
+        ]
+    },
     "MR3318758": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3318758",
         "date": 2015,
@@ -1960,6 +3208,17 @@
         "date": 2014,
         "id": "MR3161387"
     },
+    "78": {
+        "date": 2014,
+        "description": "Richard D. Canary, Michelle Lee, Matthew Stover; Amalgam Anosov representations.",
+        "publication": "preprint",
+        "id": "78",
+        "authors": [
+            20,
+            112,
+            282
+        ]
+    },
     "MR3438626": {
         "description": "Andersen, Ĭ. É. ; Chekhov, L. O. ; Norberi, P. ; Penner, R. K. Topological recursion for Gaussian means and cohomological field theories. (Russian) Teoret. Mat. Fiz. 185 (2015), no. 3, 371–409. 81R12 (81P15)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3438626",
@@ -1982,6 +3241,47 @@
         "date": 2014,
         "id": "MR3207375"
     },
+    "3": {
+        "date": 2012,
+        "description": "Ian Agol, Daniel Groves, Jason Fox Manning; The virtual Haken conjecture.",
+        "publication": "preprint",
+        "id": "3",
+        "authors": [
+            0,
+            75
+        ]
+    },
+    "77": {
+        "date": 2014,
+        "description": "Michelle Bucher, Marc Burger, Alessandra Iozzi; Rigidity of representations of hyperbolic lattices Γ<PSL(2,C) into PSL(n,C).",
+        "publication": "preprint",
+        "id": "77",
+        "authors": [
+            17,
+            18,
+            56
+        ]
+    },
+    "76": {
+        "date": 2014,
+        "description": "Michelle Bucher, Roberto Frigerio, Tobias Hartnick; A note on semi-conjugacy for circle actions.",
+        "publication": "preprint",
+        "id": "76",
+        "authors": [
+            17,
+            35
+        ]
+    },
+    "75": {
+        "date": 2014,
+        "description": "Jeffrey Brock, Kenneth Bromberg; Geometric inflexibility of hyperbolic cone-manifolds.",
+        "publication": "preprint",
+        "id": "75",
+        "authors": [
+            15,
+            16
+        ]
+    },
     "MR3424668": {
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3424668",
         "date": 2015,
@@ -1990,6 +3290,16 @@
         "authors": [
             "MR658371",
             "MR819221"
+        ]
+    },
+    "73": {
+        "date": 2014,
+        "description": "Francis Bonahon, Guillaume Dreyer; Hitchin characters and geodesic laminations.",
+        "publication": "preprint",
+        "id": "73",
+        "authors": [
+            10,
+            230
         ]
     },
     "MR3485331": {
@@ -2068,6 +3378,17 @@
         "date": 2011,
         "id": "MR2807844 "
     },
+    "79": {
+        "date": 2015,
+        "description": "Virginie Charette, Todd A. Drumm, William M. Goldman; Proper affine deformation spaces of two-generator Fuchsian groups.",
+        "publication": "preprint",
+        "id": "79",
+        "authors": [
+            21,
+            27,
+            46
+        ]
+    },
     "MR2849001 ": {
         "description": "Howard, Benjamin ; Manon, Christopher ; Millson, John The toric geometry of triangulated polygons in Euclidean space. Canad. J. Math. 63 (2011), no. 4, 878–937. (Reviewer: I. Dolgachev) 53D30 (14L24 14M25 53D20)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR2849001 ",
@@ -2078,6 +3399,36 @@
         ],
         "date": 2011,
         "id": "MR2849001 "
+    },
+    "2": {
+        "date": 2014,
+        "description": "Ian Agol, Christopher J. Leininger, Dan Margalit; Pseudo-Anosov stretch factors and homology of mapping tori.",
+        "publication": "preprint",
+        "id": "2",
+        "authors": [
+            0,
+            68
+        ]
+    },
+    "120": {
+        "date": 2015,
+        "description": "Sean Lawton, Christopher Manon; Character Varieties of Free Groups are Gorenstein but not always Factorial.",
+        "publication": "preprint",
+        "id": "120",
+        "authors": [
+            67,
+            76
+        ]
+    },
+    "9": {
+        "date": 2013,
+        "description": "David Baraglia, Laura P. Schaposnik; Real structures on moduli spaces of Higgs bundles.",
+        "publication": "preprint",
+        "id": "9",
+        "authors": [
+            3,
+            254
+        ]
     },
     "MR3268778": {
         "description": "Lecuire, Cyril ; Schlenker, Jean-Marc The convex core of quasifuchsian manifolds with particles. Geom. Topol. 18 (2014), no. 4, 2309–2373. (Reviewer: Yasushi Yamashita) 57M50 (20H10)",
@@ -2112,16 +3463,16 @@
         ]
     },
     "MR3506976": {
-        "description": "Alessandrini, D. ; Liu, L. ; Papadopoulos, A. ; Su, W. The horofunction compactification of Teichmüller spaces of surfaces with boundary. Topology Appl. 208 (2016), 160–191. 32G15 (30F30 30F60)",
         "url": "http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR3506976",
+        "date": 2016,
+        "description": "Alessandrini, D. ; Liu, L. ; Papadopoulos, A. ; Su, W. The horofunction compactification of Teichmüller spaces of surfaces with boundary. Topology Appl. 208 (2016), 160–191. 32G15 (30F30 30F60)",
+        "id": "MR3506976",
         "authors": [
             "MR849772",
             "MR337701",
             "MR135835",
             "MR838920"
-        ],
-        "date": 2016,
-        "id": "MR3506976"
+        ]
     },
     "MR3450766": {
         "description": "Fanoni, Federica ; Parlier, Hugo Systoles and kissing numbers of finite area hyperbolic surfaces. Algebr. Geom. Topol. 15 (2015), no. 6, 3409–3433. 30F10 (53C22)",
@@ -2152,6 +3503,16 @@
         "authors": [
             "MR719537",
             "MR984248"
+        ]
+    },
+    "122": {
+        "date": 2014,
+        "description": "Spencer Dowdall, Samuel J. Taylor; Hyperbolic extensions of free groups.",
+        "publication": "preprint",
+        "id": "122",
+        "authors": [
+            229,
+            289
         ]
     },
     "MR3409704": {
